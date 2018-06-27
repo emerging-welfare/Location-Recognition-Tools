@@ -33,7 +33,7 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  * In custom mode: python3 aceconv.py base filelistfile outfilename tagtypes tagver
  
  ```
-    $ python3 aceconv.py ACE/aceCorp/ ACE/aceCorp/docs/file.tbl acetotokenCorpus ORG LOC GPE binary
+    $ python3 aceconv.py ACE/aceCorp/ ACE/aceCorp/docs/file.tbl acetotokenCorpus ORG LOC GPE 0
 ```
  * To help:
  
