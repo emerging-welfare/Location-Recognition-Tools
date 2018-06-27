@@ -13,7 +13,8 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
 In custom mode the program takes as input the following arguments:
 
 base: base address of the folders of the ACE corpus
-filelistfile: full address of the file.tbl file which contains all the names of the files in the corpus
-outfilename: name of the output file
-tagtypes: Types of tags to be extracted from the corpus (multiple arguments)
-tagver: denotes the tagging version if 0 then tagging is binary if 1 each entity is tagged with its specific type (LOC, GPE, etc.)
+
+filelistfile: full address of the file.tbl file which contains all the names of the files in the corpus\\
+outfilename: name of the output file\\
+tagtypes: Types of tags to be extracted from the corpus (multiple arguments)\\
+tagver: denotes the tagging version if 0 then tagging is binary if 1 each entity is tagged with its specific type (LOC, GPE, etc.)\\
