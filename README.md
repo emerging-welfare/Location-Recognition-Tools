@@ -6,7 +6,7 @@ There are various tools for different purposes.
 
 Each tool will be explained in detail.
 
-### Tool 1) ACE to Token-per-line converter
+### Tool 1: ACE to Token-per-line converter
 
 ACE corpus is very detailed and stored in XML format. In order to convert the corpus into a token-per-line format you can use the aceconv.py. You need to have the ACE corpus in the original format with file.tbl file available. 
 
