@@ -26,12 +26,18 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
 
  **Example run:**
  
- In default mode: 
+ * In default mode: 
  ```
    $ python3 aceconv.py def
 ```
- In custom mode: python3 aceconv.py base filelistfile outfilename tagtypes tagver
+ * In custom mode: python3 aceconv.py base filelistfile outfilename tagtypes tagver
  
  ```
     $ python3 aceconv.py ACE/aceCorp/ ACE/aceCorp/docs/file.tbl acetotokenCorpus ORG LOC GPE binary
 ```
+ * To help:
+ 
+ ```
+ $ python3 aceconv.py -h
+ ```
+ 
