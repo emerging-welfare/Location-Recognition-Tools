@@ -10,16 +10,16 @@ ACE corpus is very detailed and stored in XML format. In order to convert the co
 
 For now aceconv.py has 2 modes: custom and default. Default mode uses the predefined values for the input variables. No arguments are required for execution.
 
-In custom mode the program takes as input the following arguments:
+**In custom mode the program takes as input the following arguments:**
 
-base: base address of the folders of the ACE corpus
+* base: base address of the folders of the ACE corpus
 
-filelistfile: full address of the file.tbl file which contains all the names of the files in the corpus
+* filelistfile: full address of the file.tbl file which contains all the names of the files in the corpus
 
-outfilename: name of the output file
+* outfilename: name of the output file
 
-tagtypes: Types of tags to be extracted from the corpus (multiple arguments)
+* tagtypes: Types of tags to be extracted from the corpus (multiple arguments)
 
-tagver: denotes the tagging version if 0 then tagging is binary if 1 each entity is tagged with its specific type (LOC, GPE, etc.)
+* tagver: denotes the tagging version if 0 then tagging is binary if 1 each entity is tagged with its specific type (LOC, GPE, etc.)
 
 
