@@ -113,7 +113,7 @@ def andsignupdate(filenames):
 
 ##for all English documents 
 ## create corpus in wapiti format
-def toWapitiCorpus(base,filenames,outfilename,tagver,tagtypes):
+def tokenperlineCorpus(base,filenames,outfilename,tagver,tagtypes):
     count=0
     for doc in filenames:
         name=doc
@@ -132,7 +132,7 @@ def findind(l1,ind1):
 def ACEtoTokenPerLine(base,filelistfile,outfilename,tagtypes,tagver):
     filenames=filenamelist(base,filelistfile)
     andsignupdate(filenames)
-    toWapitiCorpus(base,filenames,outfilename,tagver,tagtypes)
+    tokenperlineCorpus(base,filenames,outfilename,tagver,tagtypes)
 
 def defaultaddr():
 	base1="ACE/aceCorp/"
@@ -140,6 +140,80 @@ def defaultaddr():
 	outfilename1="acetowapCorpus2"
 	tagtypes1=["ORG","LOC","GPE","PER"]
 	tagver1=0
+	
+	
+	
+## given filenames and a token-per-line corpus
+## finds the indexes of the metadata of each file as they cause noise in the data
+## for now only takes into account DOCID DOCTYPE DATETIME BODY-HEADLINE
+## do not take into account other metadata such as speaker name etc.
+def metadatainds(filenames,corpusname):
+    filenames=filenamelist("ACE/aceCorp/",filenames)
+    corpus=open(corpusname).readlines()
+    count=0
+    indslist=[]##stores all the indexes to be deleted
+    for name in filenames:
+        tree = etree.parse(name+".sgm1")
+        root=tree.getroot()
+        docid=root.find("DOCID").text
+        doctype=root.find("DOCTYPE").text
+        doctime=root.find("DATETIME").text
+        body=root.find("BODY")
+        headl=body.find("HEADLINE")
+        metadata=[]
+        metadata.append(docid)
+        metadata.append(doctype)
+        metadata.append(doctime)
+        if headl!=None:
+            count+=1
+            #print(headl.text)
+            metadata.append(headl.text)
+        metadatas=[]##metadata in splitted array format
+        for md in metadata:
+            for mds in md.split():
+                metadatas.append(mds)
+        f=findfirstocc(metadatas,corpus)
+        #print(metadatas)
+        inds=[f+x for x in range(len(metadatas))]
+        for i in inds:
+            indslist.append(i)
+    return indslist
+        #print(metadatas)
+        
+
+##copies the corpusname file to outname
+## without copying the lines with indexes in inds
+## used for deleting metadata can be used for other purposes
+def deletedata(corpusname,inds,outname):
+    corp=open(corpusname).readlines()
+    outfile=open(outname,"w")
+    for i in range(len(corp)):
+        if i not in inds:
+            outfile.write(corp[i])
+
+
+#deletes metadatas using corpus and files in the filenamelist
+def deletemetadata(corpusname,filenamelist,outputfilename):
+    metainds=metadatainds(filenamelist,corpusname)
+    deletedata(corpusname,metainds,outputfilename)        
+        
+##given a list of tokens 
+## finds their first consecutive occurrence
+## used for deleting
+def findfirstocc(metadata,corpus):
+    for i in range(len(corpus)):
+        c=0
+        for j in range(len(metadata)):
+            lines=corpus[i+j].split()
+            if lines[0]!=metadata[j]:
+                break
+            else:
+                c+=1
+        if c==len(metadata):
+            return i
+    return -1
+    
+    
 
 def assignvars(args):
 	tagtypes1=[]
@@ -161,16 +235,18 @@ tagver1=0
 args=sys.argv
 if len(args)>1:
 	if args[1]=="-h":
-		print("python3 aceconv.py base filelistfile outfilename tagtypes tagver")
+		print("python3 aceconv.py base filelistfile outfilename tagtypes tagver | for custom mode")
 		print("python3 aceconv.py def  | for default mode")
 	elif args[1]=="def":
-		print("running on default mode")
+		print("running on default mode without metadata")
 		print("base: ACE/aceCorp/")
 		print("filelist address: ACE/aceCorp/docs/file.tbl")
-		print("output file name: acetotokenCorpus")
+		print("output file name: wometaCorpus")
 		print("Tag types: ORG LOC GPE")
 		print("Tagging version: binary")
 		ACEtoTokenPerLine(base1,filelistfile1,outfilename1,tagtypes1,tagver1)
+		deletemetadata(outfilename1,filelistfile1,"wometaCorpus")
+		
 	else:
 		tagtypes1=[]
 		base1=args[1]
@@ -179,6 +255,8 @@ if len(args)>1:
 		for x in args[4:-1]:
 			tagtypes1.append(x)
 		tagver1=args[-1]
+		if base1[-1]!="/":
+			base1+="/"
 		ACEtoTokenPerLine(base1,filelistfile1,outfilename1,tagtypes1,tagver1)
 
 
