@@ -38,6 +38,6 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  * To help:
  
  ```
- $ python3 aceconv.py -h
+    $ python3 aceconv.py -h
  ```
  
