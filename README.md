@@ -45,5 +45,9 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  
  Future versions of the converter will not include these metadata as they create noise.
  
+ Only in the default mode the converter deletes the DOCID, DOCTYPE, DATETIME and HEADLINE metadata and outputs the delete version of the corpus to the "wometaCorpus" file. 
+ 
+ Following versions will allow the user to choose the final corpus name and whether to keep the metadata or not. Custom version does not delete metadata for now.
+ 
  
  
