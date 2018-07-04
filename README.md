@@ -57,7 +57,7 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  
   
  ```
-    $ python3 aceconv2.py
+    $ python3 aceconv2.py def
  ```
  This tool outputs two files:
  * The raw format of the ACE corpus with the predefined entity types marked with special characters 
