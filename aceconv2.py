@@ -207,19 +207,20 @@ def markedtotokenperline(markedtext,entypes,outname,tagver):
         out.write("\n")  
 ##delete all characters between special signs 
 def deletemetadata(corpus,specsign):
-    ind1=corpus.find(specsign)
-    ind2=0
-    ind=0
-    text=""
-    indprev=0
-    while ind1<len(corpus)-5:
-        ind2=corpus[ind1+1:].find(specsign)+ind1+1
-        text+=corpus[ind:ind1]
-        ind1=corpus[ind2+1:].find(specsign)+ind2+1
-        ind=ind2+2
-        if ind1-ind2-1==-1:
-            break
-    return text
+	ind1=corpus.find(specsign)
+	ind2=0
+	ind=0
+	text=""
+	indprev=0
+	while ind1<len(corpus)-5:
+		ind2=corpus[ind1+1:].find(specsign)+ind1+1
+		text+=corpus[ind:ind1]
+		ind1=corpus[ind2+1:].find(specsign)+ind2+1
+		ind=ind2+2
+		if ind1-ind2-1==-1:
+		    break
+	text+=corpus[ind:]
+	return text
 
 
 
@@ -229,6 +230,7 @@ def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtype
 	t,names,inds,typelist=ACEtoInterCorpus(filelistfile,outfilename,tagtypes)
 	markedtext=markentities(t,names,inds,typelist,interoutfilename)
 	deletedt=deletemetadata(markedtext,"!1")
+	print(deletedt)
 	markedtotokenperline(deletedt,tagtypes,outfilename,tagver)
 	##metadataeraser not working properly because of tokenization
 	###metadataeraser.deletemetadata(outfilename,filelist,"deletedcorp")
