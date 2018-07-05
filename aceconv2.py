@@ -230,7 +230,6 @@ def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtype
 	t,names,inds,typelist=ACEtoInterCorpus(filelistfile,outfilename,tagtypes)
 	markedtext=markentities(t,names,inds,typelist,interoutfilename)
 	deletedt=deletemetadata(markedtext,"!1")
-	print(deletedt)
 	markedtotokenperline(deletedt,tagtypes,outfilename,tagver)
 	##metadataeraser not working properly because of tokenization
 	###metadataeraser.deletemetadata(outfilename,filelist,"deletedcorp")
