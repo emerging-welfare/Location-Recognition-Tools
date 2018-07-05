@@ -48,6 +48,8 @@ def xmltointer(xmlfile,rawfile,entypes):
 			text1+=x
 		else:
 			text1+="!1"+x[2:-2]+"!1"
+	#for x in tex[1:]:
+	#	text1+=x
 	#for t in tex:
 	#   text1=text1+t
 	return text1, names, inds ,typel
@@ -110,31 +112,36 @@ def merger(inds,typelist):
         list1.append((inds[x],typelist[x]))
     return list1
 
-
 ## create a corpus and mark the beginning and end of entities
 ## in sentence and token splitted form
 ## 1TAG Entity 1TAG is the tagging format
 def markentities(rawtext,names,inds,typelist,outname):
-    merged=merger(inds,typelist)
-    merged.sort()
-    out=open(outname,"w")
-    markedt=""
-    ind1=0
-    len1=len(rawtext)
-    for i in range(len1):
-        if i==merged[ind1][0][0]:
-            tag=merged[ind1][1]
-            out.write("1"+tag)
-            markedt+="1"+tag
-            
-        if i==merged[ind1][0][1]:
-            tag=merged[ind1][1]
-            out.write("1"+tag)
-            markedt+="1"+tag
-            ind1+=1
-        out.write(rawtext[i])
-        markedt+=rawtext[i]
-    return markedt
+	merged=merger(inds,typelist)
+	#print(len(merged))
+	merged.sort()
+	out=open(outname,"w")
+	markedt=""
+	ind1=0
+	len1=len(rawtext)
+	for i in range(len1):
+		#print(merged[ind1][0])
+		if i==int(merged[ind1][0][0]):
+			tag=merged[ind1][1]
+			out.write("1"+tag)
+			markedt+="1"+tag
+			#print(i)
+		if i==int(merged[ind1][0][1]):
+			tag=merged[ind1][1]
+			out.write("1"+tag)
+			markedt+="1"+tag
+			if ind1< len(merged)-1:
+				ind1+=1
+				while(merged[ind1-1][0][0]==merged[ind1][0][0]) and ind1<len(merged)-1:
+					ind1+=1
+			#print(i)
+		out.write(rawtext[i])
+		markedt+=rawtext[i]
+	return markedt
 
 
 def subtractsub(str1,sub1):
