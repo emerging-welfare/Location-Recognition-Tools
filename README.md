@@ -54,13 +54,13 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  Previous converter (aceconv.py) have issues related to tokenization and sentence splitting. In this new version we solved these issues. The only drawback of this version is that it includes the metadata of each document. 
  
  **Example run for version2:**
- 
+ For default version:
   
  ```
     $ python3 aceconv2.py def
  ```
  This tool outputs two files:
- * The raw format of the ACE corpus with the predefined entity types marked with special characters 
- * The token-per-line format corpus with word tokenization and sentence tokenization applied. Nltk tools are used. 
+ * The raw format of the ACE corpus with the predefined entity types and metadata are marked with special characters.
+ * The token-per-line format corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
  
  
