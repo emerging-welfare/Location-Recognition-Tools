@@ -63,4 +63,6 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  * The raw format of the ACE corpus with the predefined entity types and metadata are marked with special characters.
  * The token-per-line format corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
  
+ #### tokperlineCorpus file
+ This file contains 427, 4035, 5503 tokens tagged with LOC, ORG, GPE respectively.                  
  
