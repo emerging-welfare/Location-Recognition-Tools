@@ -66,3 +66,11 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  #### tokperlineCorpus file
  This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively.                  
  
+ 
+### Tool 2: Results and accuracy calculator 
+
+results.ipynb
+
+This tool calculates the precision recall and f1 scores for Wapiti on Conll and Ace datasets with different configurations. The results are included inside the results folder and this folder must be downloaded to view the results. If one wants to calculates precision recall etc. for a different result then calling the acc function with the corresponding parameters is enough.
+
+Since the tool is a ipython notebook it is enough to download the notebook and the results folder and go over the notebook.
