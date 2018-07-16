@@ -74,3 +74,17 @@ results.ipynb
 This tool calculates the precision recall and f1 scores for Wapiti on Conll and Ace datasets with different configurations. The results are included inside the results folder and this folder must be downloaded to view the results. If one wants to calculates precision recall etc. for a different result then calling the acc function with the corresponding parameters is enough.
 
 Since the tool is a ipython notebook it is enough to download the notebook and the results folder and go over the notebook.
+
+### Tool 3: Corpus splitter
+
+corpsplitter.py
+
+This tool splits a given corpus into training,validation and test sets. The corpus must be in Conll format where Documents are separated from each other with the -DOCSTART- tag. The tool takes as input the corpus name and the ratios for the training and test sets and outputs three files:
+* train.txt
+* test.txt
+* valid.txt
+
+Example run: python corpsplitter.py --corpus_name [Corpus name](required) --train_size [Train size](optional) ....
+ ` $ python corpsplitter.py --corpus_name ACEconllformat --train_size 0.8 --test_size 0.2`
+ 
+If the train_size and test_size does not add up to 1 the splitter automatically puts the remaining documents into the valid.txt. The splitter picks the documents randomly but uses the same seed everytime to split in the same way.
