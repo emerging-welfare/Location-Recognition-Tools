@@ -85,6 +85,8 @@ This tool splits a given corpus into training,validation and test sets. The corp
 * valid.txt
 
 Example run: python corpsplitter.py --corpus_name \[Corpus name\](required) --train_size \[Train size\](optional) ....
+
+
  ` $ python corpsplitter.py --corpus_name ACEconllformat --train_size 0.8 --test_size 0.2`
  
 If the train_size and test_size does not add up to 1 the splitter automatically puts the remaining documents into the valid.txt. The splitter picks the documents randomly but uses the same seed everytime to split in the same way. You can download the "ACEconllformat" file together with corpsplitter.py to try on your own.
