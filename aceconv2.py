@@ -88,16 +88,18 @@ def ACEtoInterCorpus(filelistfile,outfilename,entypes):
     inds=[]
     typelist=[]
     off=0
+    begin="\n-DOCSTART-\n"
     for name in filenames:
         text1,names1,inds1,typel1 = xmltointer(name+".apf.xml",name+".sgm1",entypes)
+        t+=begin
         t+=text1
         for name1 in names1:
             names.append(name1)
         for ind in inds1:
-            inds.append((ind[0]+off,ind[1]+off))
+            inds.append((ind[0]+off+len(begin),ind[1]+off+len(begin)))
         for typ in typel1:
             typelist.append(typ)
-        off+=len(text1)
+        off+=len(text1)+len(begin)
     return t,names,inds,typelist
 
 def findtupleind(list1,tok):
@@ -155,56 +157,59 @@ def subtractsub(str1,sub1):
 ##takes as input the marked rawtext and outputs the token-per-line corpus
 ## the code is not neat and will be updated
 def markedtotokenperline(markedtext,entypes,outname,tagver):
-    tags=[]
-    out=open(outname,"w")
-    for t1 in entypes:
-        tags.append("1"+t1)
-    sents=sent_tokenize(markedtext)
-    for sent in sents:
-        words=word_tokenize(sent)
-        f=0
-        tag=""
-        for word in words:
-            if f==0:
-                for t1 in tags:
-                    if t1 in word:
-                        f=1
-                        tag=t1[1:]
-                        break
-                if f==0:
-                    out.write(word+" 0\n")
-                else:
-                    w1=subtractsub(word,"1"+tag)
-                    singtok=subtractsub(w1,"1"+tag)
-                    if singtok!="-1":
-                        f=0
-                        if tagver==0:
-                        	out.write(singtok+" 1\n")
-                        else:
-                        	out.write(singtok+" "+tag+"\n")
-                    else:
-                    	if tagver==0:
-                    		out.write(w1+" 1\n")
-                    	else:
-                        	out.write(w1+" "+tag+"\n")
-            else:
-                for t1 in tags:
-                    if t1 in word:
-                        f=0
-                        tag=t1[1:]
-                        break
-                if f==0:
-                    w1=subtractsub(word,"1"+tag)
-                    if tagver==0:
-                    	out.write(w1+" 1\n")
-                    else:
-                    	out.write(w1+" "+tag+"\n")
-                else:
-                	if tagver==0:
-                		out.write(word+" 1\n")
-                	else:       		
-                		out.write(word+" "+tag+"\n")
-        out.write("\n")  
+	tags=[]
+	out=open(outname,"w")
+	for t1 in entypes:
+		tags.append("1"+t1)
+	sents=sent_tokenize(markedtext)
+	for sent in sents:
+		words=word_tokenize(sent)
+		f=0
+		tag=""
+		for word in words:
+			if "DOCSTART" in word:
+				out.write(word + " O\n\n")
+			else:
+				if f==0:
+					for t1 in tags:
+						if t1 in word:
+							f=1
+							tag=t1[1:]
+							break
+					if f==0:
+						out.write(word+" O\n")
+					else:
+						w1=subtractsub(word,"1"+tag)
+						singtok=subtractsub(w1,"1"+tag)
+						if singtok!="-1":
+							f=0
+							if tagver==0:
+								out.write(singtok+" 1\n")
+							else:
+								out.write(singtok+" "+tag+"\n")
+						else:
+							if tagver==0:
+								out.write(w1+" 1\n")
+							else:
+								out.write(w1+" "+tag+"\n")
+				else:
+					for t1 in tags:
+						if t1 in word:
+							f=0
+							tag=t1[1:]
+							break
+					if f==0:
+						w1=subtractsub(word,"1"+tag)
+						if tagver==0:
+							out.write(w1+" 1\n")
+						else:
+							out.write(w1+" "+tag+"\n")
+					else:
+						if tagver==0:
+							out.write(word+" 1\n")
+						else:       		
+							out.write(word+" "+tag+"\n")
+		out.write("\n")  
 ##delete all characters between special signs 
 def deletemetadata(corpus,specsign):
 	ind1=corpus.find(specsign)
@@ -223,14 +228,45 @@ def deletemetadata(corpus,specsign):
 	return text
 
 
+##given an annotated corpus 
+## change it to the BIO tagging format
+def toBIOformat(corpusname,outname):
+    corp=open(corpusname).readlines()
+    out=open(outname,"w")
+    ptag="O"
+    for line in corp:
+        if len(line)>1:
+            ls=line.split()
+            for x in ls[:-1]:
+                out.write(x+" ")
+            if ls[-1]!="O":
+                if ptag==ls[-1]:
+                    out.write("I-"+ptag+"\n")
+                else:
+                    out.write("B-"+ls[-1]+"\n")
+            else:
+                out.write("O\n")
+            ptag=ls[-1]
+        else:
+            out.write(line)
+            ptag="O"
 
+def GPEtoLOC(corp,out):
+	c1=open(corp).readlines()
+	o1=open(out,"w")
+	for line in c1:
+		l=line.replace("B-GPE","B-LOC")
+		l2=l.replace("I-GPE","I-LOC")
+		o1.write(l2)
 ##save these variables
-def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtypes,tagver):
+def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtypes,tagver,finalout):
 	filelist=filenamelist(filelistfile)
 	t,names,inds,typelist=ACEtoInterCorpus(filelistfile,outfilename,tagtypes)
 	markedtext=markentities(t,names,inds,typelist,interoutfilename)
 	deletedt=deletemetadata(markedtext,"!1")
 	markedtotokenperline(deletedt,tagtypes,outfilename,tagver)
+	toBIOformat(outfilename,outfilename+"BIO")
+	GPEtoLOC(outfilename+"BIO",finalout)
 	##metadataeraser not working properly because of tokenization
 	###metadataeraser.deletemetadata(outfilename,filelist,"deletedcorp")
     
@@ -238,6 +274,7 @@ base="ACE/aceCorp/"
 filelistfile="ACE/aceCorp/docs/file.tbl"
 intoutn="out1"
 outn="tokperlineCorpus"
+finalout1="ACEconllformat"
 tagtypes=["ORG","LOC","GPE"]
 tagver=1         
 metadata=1
@@ -256,11 +293,12 @@ if len(args)>1:
 	elif args[1]=="def":
 		print("filelist address: ACE/aceCorp/docs/file.tbl")
 		print("intermediate raw corpus: out1")
-		print("output file name: tokperlineCorpus")
-		print("Tag types: ORG LOC GPE")
-		print("Tagging version: type-specific")
+		print("corpus file name: tokperlineCorpus")
+		print("Tag types: ORG LOC GPE( GPEs converted to LOC)")
+		print("Conll format corpus name: "+"ACEconllformat")
+		print("Tagging version: type-specific BIO format")
 		print("metadata deleted")
-		ACEtotokenperlineconverter(filelistfile,intoutn,outn,tagtypes,tagver)
+		ACEtotokenperlineconverter(filelistfile,intoutn,outn,tagtypes,tagver,finalout1)
 			
 	else:
 		tagtypes1=[]
@@ -270,6 +308,12 @@ if len(args)>1:
 		for x in args[3:-1]:
 			tagtypes1.append(x)
 		tagver1=int(args[-1])
+		
+		
+		
+		
+		
+		
 		#metadata1=int(args[-1])
 		ACEtotokenperlineconverter(filelistfile1,interoutfilename,outfilename1,tagtypes1,tagver1)
 
