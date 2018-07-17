@@ -49,9 +49,22 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  
  Following versions will allow the user to choose the final corpus name and whether to keep the metadata or not. Custom version does not delete metadata for now.
  
- **Second version of converter**
+  **NOTE** : The ACE dataset must be in the same folder with the aceconv2.py file. The filenames in the file.tbl file must match with the dataset address.
  
- Previous converter (aceconv.py) have issues related to tokenization and sentence splitting. In this new version we solved these issues. The only drawback of this version is that it includes the metadata of each document. 
+ **Final version of converter**
+ 
+ aceconv2.py
+ 
+ Previous converter (aceconv.py) have issues related to tokenization and sentence splitting. In this new version we solved these issues. The final version has the following improvements over the previous version:
+ 
+ * Sentence splitting and tokenization is done properly using nltk.
+ * Document boundaries are included.
+ * BIO tagging scheme is added to the entity tags.
+ * GPE tags are converted to LOC (to simplify the dataset according to the project needs)
+
+The resulting corpus format is Conll-format and tools designed specifically for Conll can be directly applied.
+ 
+ For the purpose of our project it suffices to run the converter in the default mode as in the example given below. 
  
  **Example run for version2:**
  For default version:
@@ -60,11 +73,15 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
     $ python3 aceconv2.py def
  ```
  This tool outputs two files:
- * The raw format of the ACE corpus with the predefined entity types and metadata are marked with special characters.
- * The token-per-line format corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
+ * The raw format of the ACE corpus (intermediate)with the predefined entity types and metadata are marked with special characters.
+ * The token-per-line format (Aceconllformat) corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
  
  #### tokperlineCorpus file
- This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively.                  
+ This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively. 
+ 
+ #### ACEconllformat file
+ 
+This file is the output of the final version of the converter. This is our current corpus we are using for Location Recognition.
  
  
 ### Tool 2: Results and accuracy calculator 
