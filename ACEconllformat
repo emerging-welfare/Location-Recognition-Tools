@@ -170,8 +170,8 @@ of O
 the O
 disgraceful O
 Bob B-ORG
-Jones I-ORG
-University I-ORG
+Jones O
+University B-ORG
 . O
 
 Apparently O
@@ -767,9 +767,9 @@ issue O
 of O
 `` O
 TIME B-ORG
-, I-ORG
-'' I-ORG
-magazine I-ORG
+, O
+'' O
+magazine B-ORG
 , O
 quote O
 , O
@@ -980,8 +980,8 @@ army O
 's O
 entire O
 first B-ORG
-Calvary I-ORG
-division I-ORG
+Calvary O
+division B-ORG
 based O
 at O
 Fort B-LOC
@@ -1031,8 +1031,8 @@ national O
 director O
 of O
 Win B-ORG
-Without I-ORG
-War I-ORG
+Without O
+War B-ORG
 , O
 and O
 former O
@@ -1206,8 +1206,8 @@ week O
 from O
 `` O
 Newsweek B-ORG
-'' I-ORG
-magazine I-ORG
+'' O
+magazine B-ORG
 which O
 got O
 a O
@@ -1547,12 +1547,12 @@ a O
 look O
 at O
 the O
-CNN1 B-ORG
+CNN/ B-ORG
 '' O
 USA B-ORG
 TODAY I-ORG
 '' O
-/1ORGGa B-ORG
+/Gallup B-ORG
 poll O
 , O
 taken O
@@ -2162,8 +2162,8 @@ Frank O
 Mastro O
 of O
 New B-LOC
-York I-LOC
-City I-LOC
+York O
+City B-LOC
 . O
 
 `` O
@@ -2722,8 +2722,8 @@ president-elect O
 of O
 the O
 American B-ORG
-Medical I-ORG
-Association I-ORG
+Medical O
+Association B-ORG
 . O
 
 ( O
@@ -3090,7 +3090,7 @@ poured O
 into O
 members O
 of O
-Congress1 B-ORG
+Congress' B-ORG
 coffers O
 . O
 
@@ -3541,8 +3541,8 @@ care O
 
 The O
 American B-ORG
-Medical I-ORG
-Association I-ORG
+Medical O
+Association B-ORG
 works O
 very O
 hard O
@@ -3564,9 +3564,9 @@ we O
 founded O
 the O
 National B-ORG
-Patient I-ORG
-Safety I-ORG
-Foundation I-ORG
+Patient O
+Safety O
+Foundation B-ORG
 . O
 
 The O
@@ -3977,9 +3977,9 @@ that O
 
 The O
 National B-ORG
-Practitioner I-ORG
-Data I-ORG
-Bank I-ORG
+Practitioner O
+Data O
+Bank B-ORG
 is O
 the O
 source O
@@ -4000,8 +4000,8 @@ all O
 , O
 the O
 Government B-ORG
-Accounting I-ORG
-Office I-ORG
+Accounting O
+Office B-ORG
 criticized O
 the O
 methodology O
@@ -4323,8 +4323,8 @@ what O
 the O
 `` O
 Dallas B-ORG
-Morning I-ORG
-News I-ORG
+Morning O
+News B-ORG
 '' O
 reported O
 recently O
@@ -4332,11 +4332,11 @@ recently O
 `` O
 The O
 Texas B-ORG
-State I-ORG
-Board I-ORG
-of I-ORG
-Medical I-ORG
-Examiners I-ORG
+State O
+Board O
+of O
+Medical O
+Examiners B-ORG
 , O
 the O
 agency O
@@ -4632,9 +4632,9 @@ doctor O
 at O
 Harvard B-ORG
 Public I-ORG
-School I-ORG
-of I-ORG
-Health I-ORG
+School O
+of O
+Health B-ORG
 said O
 the O
 issue O
@@ -4991,35 +4991,35 @@ investment O
 income O
 , O
 A.M B-ORG
-. I-ORG
+. O
 
 Bests B-ORG
-( I-ORG
-ph I-ORG
-) I-ORG
-show I-ORG
-that I-ORG
-in I-ORG
-the I-ORG
-past I-ORG
-five I-ORG
-years I-ORG
-, I-ORG
-the I-ORG
-investment I-ORG
-income I-ORG
-has I-ORG
-been I-ORG
-stable I-ORG
-at I-ORG
-around I-ORG
-5 I-ORG
-percent I-ORG
-. I-ORG
+( O
+ph O
+) O
+show O
+that O
+in O
+the O
+past O
+five O
+years O
+, O
+the O
+investment O
+income O
+has O
+been O
+stable O
+at O
+around O
+5 O
+percent O
+. O
 
 Brown B-ORG
-Brothers I-ORG
-Harriman I-ORG
+Brothers O
+Harriman B-ORG
 said O
 that O
 investments O
@@ -6679,9 +6679,9 @@ power O
 
 The O
 United B-LOC
-States I-LOC
-of I-LOC
-America I-LOC
+States O
+of O
+America B-LOC
 . O
 
 HAYWORTH O
@@ -7023,8 +7023,8 @@ Novak O
 's O
 beloved O
 University B-ORG
-of I-ORG
-Maryland I-ORG
+of O
+Maryland B-ORG
 , O
 only O
 one O
@@ -7655,7 +7655,7 @@ not O
 allow O
 a O
 second O
-American1GPE-ba B-LOC
+American-backed B-LOC
 resolution O
 to O
 pass O
@@ -8443,8 +8443,8 @@ today O
 in O
 `` O
 The B-ORG
-Washington I-ORG
-Post I-ORG
+Washington O
+Post B-ORG
 , O
 '' O
 shows O
@@ -10354,10 +10354,10 @@ recall O
 as O
 reported O
 in O
-'1OR B-ORG
-Wall I-ORG
-Street I-ORG
-Journal I-ORG
+'The B-ORG
+Wall O
+Street O
+Journal B-ORG
 , O
 ' O
 that O
@@ -10387,7 +10387,7 @@ program O
 authorized O
 by O
 the O
-U.N1 B-ORG
+U.N. B-ORG
 ? O
 '' O
 
@@ -12954,9 +12954,9 @@ Chairman O
 of O
 the O
 Joint B-ORG
-Chiefs I-ORG
-of I-ORG
-Staff I-ORG
+Chiefs O
+of O
+Staff B-ORG
 . O
 
 General O
@@ -14352,8 +14352,8 @@ soldiers O
 from O
 the O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 manning O
 a O
 checkpoint O
@@ -14504,10 +14504,10 @@ of O
 Saddam O
 's O
 Thataeen B-ORG
-( I-ORG
-ph I-ORG
-) I-ORG
-group I-ORG
+( O
+ph O
+) O
+group B-ORG
 surrendered O
 to O
 U.S B-LOC
@@ -14954,7 +14954,7 @@ terms O
 of O
 airspace O
 over O
-Baghdad1GPE. B-LOC
+Baghdad.Judy B-LOC
 ... O
 WOODRUFF O
 All O
@@ -15523,10 +15523,10 @@ is O
 with O
 the O
 Center B-ORG
-for I-ORG
-Middle I-ORG
-East I-ORG
-Policy I-ORG
+for O
+Middle O
+East O
+Policy B-ORG
 at O
 the O
 Brookings B-ORG
@@ -15756,8 +15756,8 @@ forces O
 like O
 the O
 82nd B-ORG
-Airborne I-ORG
-Division I-ORG
+Airborne O
+Division B-ORG
 to O
 better O
 deal O
@@ -17492,12 +17492,12 @@ Angeles I-LOC
 , O
 the O
 International B-ORG
-Black I-ORG
-Coalition I-ORG
-for I-ORG
-Peace I-ORG
-and I-ORG
-Justice I-ORG
+Black O
+Coalition O
+for O
+Peace O
+and O
+Justice B-ORG
 is O
 sponsoring O
 a O
@@ -17813,8 +17813,8 @@ He O
 with O
 the O
 Iraqi B-ORG
-American I-ORG
-Council I-ORG
+American O
+Council B-ORG
 . O
 
 How O
@@ -17831,8 +17831,8 @@ How O
 does O
 the O
 Iraqi B-ORG
-American I-ORG
-Council I-ORG
+American O
+Council B-ORG
 feel O
 ? O
 
@@ -18237,48 +18237,48 @@ ahead O
 of O
 the O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-'s I-ORG
-3rd I-ORG
-Squadron I-ORG
-, I-ORG
-7th I-ORG
+'s O
+3rd O
+Squadron O
+, O
+7th B-ORG
 Cavalry I-ORG
-, I-ORG
-we I-ORG
-heard I-ORG
-more I-ORG
-than I-ORG
-a I-ORG
-few I-ORG
-explosions I-ORG
-. I-ORG
+, O
+we O
+heard O
+more O
+than O
+a O
+few O
+explosions O
+. O
 
 The O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-'s I-ORG
-3rd I-ORG
-Squadron I-ORG
-, I-ORG
-7th I-ORG
+'s O
+3rd O
+Squadron O
+, O
+7th B-ORG
 Cavalry I-ORG
-has I-ORG
-compiled I-ORG
-a I-ORG
-rather I-ORG
-extraordinary I-ORG
-record I-ORG
-in I-ORG
-the I-ORG
-past I-ORG
-several I-ORG
-days I-ORG
-. I-ORG
+has O
+compiled O
+a O
+rather O
+extraordinary O
+record O
+in O
+the O
+past O
+several O
+days O
+. O
 
 It O
 was O
@@ -18637,17 +18637,17 @@ re-used O
 , O
 secondhand O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-Humvee I-ORG
-that I-ORG
-we I-ORG
-'ve I-ORG
-been I-ORG
-traveling I-ORG
-with I-ORG
-. I-ORG
+Humvee O
+that O
+we O
+'ve O
+been O
+traveling O
+with O
+. O
 
 Any O
 bullet O
@@ -18964,17 +18964,17 @@ that O
 
 The O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-'s I-ORG
-7th I-ORG
+'s O
+7th B-ORG
 Cavalry I-ORG
-has I-ORG
-just I-ORG
-taken I-ORG
-three I-ORG
-Iraqi1GPE B-LOC
+has O
+just O
+taken O
+three O
+Iraqi B-LOC
 prisoners O
 of O
 war O
@@ -19356,7 +19356,7 @@ the O
 start O
 of O
 the O
-U.s.-l1G B-LOC
+U.s.-led B-LOC
 war O
 against O
 Iraq B-LOC
@@ -19644,7 +19644,7 @@ the O
 start O
 of O
 the O
-U.S.-l1G B-LOC
+U.S.-led B-LOC
 war O
 against O
 Iraq B-LOC
@@ -19825,7 +19825,7 @@ under O
 way O
 . O
 
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 forces O
 were O
 able O
@@ -19836,8 +19836,8 @@ north O
 after O
 defeating O
 Iraqi B-ORG
-Republican I-ORG
-Guard I-ORG
+Republican O
+Guard B-ORG
 units O
 at O
 Karbala B-LOC
@@ -19924,18 +19924,18 @@ backs O
 . O
 
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-'s I-ORG
-7th I-ORG
-Cavalry I-ORG
-is I-ORG
-in I-ORG
-the I-ORG
-forefront I-ORG
-of I-ORG
-U.S1GPE B-LOC
+'s O
+7th O
+Cavalry O
+is O
+in O
+the O
+forefront O
+of O
+U.S B-LOC
 . O
 
 troops O
@@ -19996,19 +19996,19 @@ day O
 as O
 the O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-7th I-ORG
-Cavalry I-ORG
-punched I-ORG
-northward I-ORG
-in I-ORG
-the I-ORG
-general I-ORG
-direction I-ORG
-of I-ORG
-Baghdad1GPE B-LOC
+7th O
+Cavalry O
+punched O
+northward O
+in O
+the O
+general O
+direction O
+of O
+Baghdad B-LOC
 , O
 we O
 have O
@@ -20059,8 +20059,8 @@ Brigade O
 of O
 the O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 took O
 Karbala B-LOC
 with O
@@ -20078,8 +20078,8 @@ Brigade O
 of O
 the O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 secured O
 the O
 town O
@@ -20333,15 +20333,15 @@ embedded O
 with O
 the O
 U.S B-ORG
-. I-ORG
+. O
 
 Army B-ORG
-'s I-ORG
-11th I-ORG
-Attack I-ORG
-Helicopter I-ORG
-Regiment I-ORG
-. I-ORG
+'s O
+11th O
+Attack O
+Helicopter O
+Regiment O
+. O
 
 Here O
 's O
@@ -20469,8 +20469,8 @@ vehicles O
 of O
 the O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 backed O
 by O
 the O
@@ -20480,8 +20480,8 @@ helicopters O
 of O
 the O
 11th B-ORG
-Aviation I-ORG
-Regiment I-ORG
+Aviation O
+Regiment B-ORG
 punched O
 through O
 the O
@@ -20522,8 +20522,8 @@ elements O
 of O
 the O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 are O
 now O
 literally O
@@ -20643,18 +20643,18 @@ injured O
 . O
 
 U.S B-ORG
-. I-ORG
+. O
 
 Central O
 Command B-ORG
-says I-ORG
-4,500 I-ORG
-Iraqis I-ORG
-have I-ORG
-been I-ORG
-taken I-ORG
-prisoner I-ORG
-. I-ORG
+says O
+4,500 O
+Iraqis O
+have O
+been O
+taken O
+prisoner O
+. O
 
 Seven O
 Americans O
@@ -21307,19 +21307,19 @@ there O
 At O
 the O
 U.S B-ORG
-. I-ORG
+. O
 
 Central O
 Command B-ORG
-briefing I-ORG
-this I-ORG
-morning I-ORG
-at I-ORG
-the I-ORG
-forward I-ORG
-headquarters I-ORG
-in I-ORG
-Doha1GPE B-LOC
+briefing O
+this O
+morning O
+at O
+the O
+forward O
+headquarters O
+in O
+Doha B-LOC
 , O
 Qatar B-LOC
 , O
@@ -21702,8 +21702,8 @@ time O
 in O
 the O
 Defence B-ORG
-Intelligence I-ORG
-Agency I-ORG
+Intelligence O
+Agency B-ORG
 , O
 among O
 other O
@@ -23135,7 +23135,7 @@ This O
 land O
 fell O
 into O
-Iraqi1GPE-Kur B-LOC
+Iraqi-Kurdish B-LOC
 hands O
 without O
 a O
@@ -24433,9 +24433,9 @@ member O
 of O
 the O
 Senate B-ORG
-Foreign I-ORG
-Relations I-ORG
-Committee I-ORG
+Foreign O
+Relations O
+Committee B-ORG
 , O
 Senator O
 Joe O
@@ -24542,7 +24542,7 @@ that O
 armored O
 columns O
 of O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 troops O
 have O
 reached O
@@ -27055,7 +27055,7 @@ fight O
 for O
 control O
 of O
-Baghdad1G B-LOC
+Baghdad's B-LOC
 International O
 Airport O
 . O
@@ -34188,8 +34188,8 @@ and O
 another O
 from O
 Tele B-ORG
-5 I-ORG
-Spain I-ORG
+5 O
+Spain B-ORG
 died O
 , O
 another O
@@ -34383,9 +34383,9 @@ reporters O
 like O
 `` O
 The B-ORG
-Wall I-ORG
-Street I-ORG
-Journal I-ORG
+Wall O
+Street O
+Journal B-ORG
 '' O
 's O
 Danny O
@@ -34501,9 +34501,9 @@ an O
 interview O
 with O
 broadcasting B-ORG
-and I-ORG
-cable I-ORG
-magazine I-ORG
+and O
+cable O
+magazine B-ORG
 , O
 CBS B-ORG
 News I-ORG
@@ -35100,9 +35100,9 @@ are O
 keeping O
 the O
 United B-LOC
-States I-LOC
-of I-LOC
-America I-LOC
+States O
+of O
+America B-LOC
 safe O
 . O
 
@@ -36266,9 +36266,9 @@ tank O
 called O
 the O
 National B-ORG
-Endowment I-ORG
-for I-ORG
-Democracy I-ORG
+Endowment O
+for O
+Democracy B-ORG
 . O
 
 He O
@@ -36288,8 +36288,8 @@ group O
 called O
 the O
 Iraq B-ORG
-National I-ORG
-Group I-ORG
+National O
+Group B-ORG
 . O
 
 He O
@@ -36341,8 +36341,8 @@ KUBBA O
 PRESIDENT O
 , O
 IRAQI B-ORG
-NATIONAL I-ORG
-GROUP I-ORG
+NATIONAL O
+GROUP B-ORG
 It O
 is O
 a O
@@ -36800,8 +36800,8 @@ in O
 mind O
 the O
 Iraqi B-ORG
-National I-ORG
-Congress I-ORG
+National O
+Congress B-ORG
 that O
 Mr. O
 Chalabi O
@@ -37046,8 +37046,8 @@ is O
 called O
 the O
 Iraq B-ORG
-National I-ORG
-Group I-ORG
+National O
+Group B-ORG
 . O
 
 Mr. O
@@ -37091,8 +37091,8 @@ members O
 of O
 the O
 House B-ORG
-of I-ORG
-Representatives I-ORG
+of O
+Representatives B-ORG
 come O
 together O
 to O
@@ -37664,7 +37664,7 @@ story O
 entirely O
 . O
 
-CNN1O B-ORG
+CNN's B-ORG
 Rula O
 Amin O
 reports O
@@ -37837,8 +37837,8 @@ Houston B-LOC
 A O
 `` O
 New B-ORG
-York I-ORG
-Times I-ORG
+York O
+Times B-ORG
 '' O
 reporter O
 lends O
@@ -38864,8 +38864,8 @@ countries O
 and O
 the O
 Department B-ORG
-of I-ORG
-State I-ORG
+of O
+State B-ORG
 has O
 the O
 responsibility O
@@ -39456,8 +39456,8 @@ United B-LOC
 States I-LOC
 Senate B-ORG
 Foreign I-ORG
-Relations I-ORG
-Committee I-ORG
+Relations O
+Committee B-ORG
 . O
 
 In O
@@ -41223,9 +41223,9 @@ the O
 survey O
 by O
 challenger B-ORG
-gray I-ORG
-and I-ORG
-christmas I-ORG
+gray O
+and O
+christmas B-ORG
 says O
 layoffs O
 rose O
@@ -41986,7 +41986,7 @@ phillips O
 cnn B-ORG
 . O
 
-u.s1GPE. B-LOC
+u.s.-led B-LOC
 forces O
 are O
 approaching O
@@ -42088,10 +42088,10 @@ member O
 of O
 the O
 international B-ORG
-committee I-ORG
-of I-ORG
-red I-ORG
-cross I-ORG
+committee O
+of O
+red O
+cross B-ORG
 visited O
 the O
 local O
@@ -42459,8 +42459,8 @@ head O
 of O
 the O
 iraqi B-ORG
-democratic I-ORG
-movement I-ORG
+democratic O
+movement B-ORG
 says O
 his O
 group O
@@ -42488,8 +42488,8 @@ leader O
 of O
 the O
 iraqi B-ORG
-national I-ORG
-congress I-ORG
+national O
+congress B-ORG
 . O
 
 he O
@@ -42912,8 +42912,8 @@ reports O
 . O
 
 motor B-ORG
-row I-ORG
-la I-ORG
+row O
+la B-ORG
 . O
 
 cutting O
@@ -43213,8 +43213,8 @@ homes O
 -DOCSTART- O
 
 major B-ORG
-league I-ORG
-baseball I-ORG
+league O
+baseball B-ORG
 sent O
 its O
 head O
@@ -43257,8 +43257,8 @@ violence O
 
 the O
 kansas B-ORG
-city I-ORG
-royals I-ORG
+city O
+royals B-ORG
 considered O
 not O
 playing O
@@ -44942,8 +44942,8 @@ hurt O
 
 the O
 french B-ORG
-press I-ORG
-agency I-ORG
+press O
+agency B-ORG
 says O
 the O
 militant O
@@ -45021,7 +45021,7 @@ is O
 the O
 first O
 east B-LOC
-coast1LOC-b I-LOC
+coast-based I-LOC
 carrier O
 to O
 return O
@@ -45099,7 +45099,7 @@ also O
 suspected O
 in O
 three O
-atlanta1GPE- B-LOC
+atlanta-area B-LOC
 bombings O
 . O
 
@@ -45199,9 +45199,9 @@ chief O
 executive O
 of O
 martha B-ORG
-stewart I-ORG
-living I-ORG
-omnimedia I-ORG
+stewart O
+living O
+omnimedia B-ORG
 , O
 following O
 word O
@@ -45689,10 +45689,10 @@ restitution O
 to O
 the O
 new B-ORG
-york I-ORG
-state I-ORG
-tax I-ORG
-commission I-ORG
+york O
+state O
+tax O
+commission B-ORG
 . O
 
 waksal O
@@ -45972,9 +45972,9 @@ the O
 students O
 at O
 glenbrook B-ORG
-north I-ORG
-high I-ORG
-school I-ORG
+north O
+high O
+school B-ORG
 have O
 also O
 been O
@@ -46222,10 +46222,10 @@ court O
 and O
 the O
 board B-ORG
-of I-ORG
-pardon I-ORG
-and I-ORG
-paroles I-ORG
+of O
+pardon O
+and O
+paroles B-ORG
 to O
 officially O
 clear O
@@ -46311,7 +46311,7 @@ to O
 do O
 with O
 the O
-u.s1 B-LOC
+u.s. B-LOC
 , O
 but O
 he O
@@ -47175,8 +47175,8 @@ jordeena O
 ginsburg O
 from O
 news B-ORG
-12 I-ORG
-westchester I-ORG
+12 O
+westchester B-ORG
 has O
 the O
 story O
@@ -47855,13 +47855,13 @@ appeal O
 to O
 the O
 u.s B-ORG
-. I-ORG
+. O
 
 supreme O
 court B-ORG
-here I-ORG
-in I-ORG
-washington1GPE B-LOC
+here O
+in O
+washington B-LOC
 . O
 
 the O
@@ -48326,11 +48326,11 @@ in O
 
 the O
 supreme B-ORG
-court I-ORG
-of I-ORG
-the I-ORG
-united I-ORG
-states I-ORG
+court O
+of O
+the O
+united O
+states B-ORG
 upheld O
 the O
 toughest O
@@ -48679,7 +48679,7 @@ their O
 opposition O
 to O
 a O
-u.s1GPE. B-LOC
+u.s.-led B-LOC
 war O
 with O
 iraq B-LOC
@@ -48695,11 +48695,11 @@ naed O
 by O
 the O
 national B-ORG
-youth I-ORG
-and I-ORG
-student I-ORG
-peace I-ORG
-coalition I-ORG
+youth O
+and O
+student O
+peace O
+coalition B-ORG
 . O
 
 record O
@@ -49655,8 +49655,8 @@ park O
 somewhere O
 in O
 salt B-LOC
-lake I-LOC
-city I-LOC
+lake O
+city B-LOC
 completely O
 robed O
 in O
@@ -51491,8 +51491,8 @@ way O
 , O
 the O
 4th B-ORG
-infantry I-ORG
-division I-ORG
+infantry O
+division B-ORG
 is O
 one O
 seeped O
@@ -52756,9 +52756,9 @@ editor O
 for O
 `` O
 new B-ORG
-york I-ORG
-'' I-ORG
-magazine I-ORG
+york O
+'' O
+magazine B-ORG
 , O
 a O
 media O
@@ -54330,28 +54330,28 @@ forces O
 , O
 principally O
 u.s B-ORG
-. I-ORG
+. O
 
 army B-ORG
-forces I-ORG
-, I-ORG
-move I-ORG
-against I-ORG
-saddam I-ORG
-hussein I-ORG
-international I-ORG
-airport I-ORG
--- I-ORG
-which I-ORG
-is I-ORG
-about I-ORG
-ten I-ORG
-miles I-ORG
-outside I-ORG
-the I-ORG
-center I-ORG
-of I-ORG
-baghdad1GPE B-LOC
+forces O
+, O
+move O
+against O
+saddam O
+hussein O
+international O
+airport O
+-- O
+which O
+is O
+about O
+ten O
+miles O
+outside O
+the O
+center O
+of O
+baghdad B-LOC
 -- O
 those O
 explosions O
@@ -54376,8 +54376,8 @@ me O
 to O
 be O
 abu B-ORG
-dhabi I-ORG
-television I-ORG
+dhabi O
+television B-ORG
 that O
 is O
 providing O
@@ -55079,7 +55079,7 @@ baghdad B-LOC
 iraqi B-LOC
 forces O
 using O
-soviet1GPE B-LOC
+soviet-era B-LOC
 tanks O
 . O
 
@@ -55176,8 +55176,8 @@ also O
 says O
 2500 O
 republican B-ORG
-guard I-ORG
-troops I-ORG
+guard O
+troops B-ORG
 have O
 surrendered O
 to O
@@ -55485,9 +55485,9 @@ operation O
 center O
 for O
 2nd B-ORG
-brigade I-ORG
-3rd I-ORG
-infantry I-ORG
+brigade O
+3rd O
+infantry B-ORG
 zrigs O
 south O
 baghdad O
@@ -55557,8 +55557,8 @@ ground O
 at O
 a O
 royal B-ORG
-air I-ORG
-force I-ORG
+air O
+force B-ORG
 base O
 outside O
 of O
@@ -55626,7 +55626,7 @@ so-called O
 road O
 map O
 for O
-israeli1GPE/1GPEpalestinian B-LOC
+israeli/palestinian B-LOC
 peace O
 negotiations O
 to O
@@ -56766,7 +56766,7 @@ iraq B-LOC
 run O
 neither O
 by O
-u.s1GPE./1GPEbritish B-LOC
+u.s./british B-LOC
 coalition O
 or O
 united B-ORG
@@ -57167,8 +57167,8 @@ to O
 us O
 from O
 abu B-ORG
-dhabi I-ORG
-television I-ORG
+dhabi O
+television B-ORG
 . O
 
 they O
@@ -57619,17 +57619,17 @@ was O
 rescued O
 by O
 u.s B-ORG
-. I-ORG
+. O
 
 army B-ORG
-ground I-ORG
-troops I-ORG
-who I-ORG
-were I-ORG
-in I-ORG
-the I-ORG
-area I-ORG
-. I-ORG
+ground O
+troops O
+who O
+were O
+in O
+the O
+area O
+. O
 
 the O
 pilot O
@@ -60613,8 +60613,8 @@ less O
 spending O
 in O
 washington B-LOC
-, I-LOC
-d.c I-LOC
+, O
+d.c B-LOC
 . O
 
 [ O
@@ -61158,8 +61158,8 @@ bodies O
 recovered O
 near O
 san B-LOC
-francisco I-LOC
-bay I-LOC
+francisco O
+bay B-LOC
 yesterday O
 was O
 unable O
@@ -62216,7 +62216,7 @@ the O
 woman O
 who O
 ran O
-iraq1G B-LOC
+iraq's B-LOC
 secret O
 biological O
 warfare O
@@ -62241,7 +62241,7 @@ germ O
 , O
 who O
 directed O
-iraq1G B-LOC
+iraq's B-LOC
 biological O
 weapons O
 program O
@@ -63373,8 +63373,8 @@ night O
 a.m. O
 , O
 abu B-ORG
-dhabi I-ORG
-tv I-ORG
+dhabi O
+tv B-ORG
 broadcasts O
 videotape O
 which O
@@ -63523,7 +63523,7 @@ heart O
 from O
 one O
 of O
-iraq1G B-LOC
+iraq's B-LOC
 archaeologists O
 . O
 
@@ -64223,8 +64223,8 @@ airlines O
 according O
 to O
 business B-ORG
-travel I-ORG
-coalition I-ORG
+travel O
+coalition B-ORG
 , O
 younger O
 techs O
@@ -64708,8 +64708,8 @@ shooting O
 for O
 the O
 detroit B-ORG
-free I-ORG
-press I-ORG
+free O
+press B-ORG
 . O
 
 he O
@@ -64851,8 +64851,8 @@ a O
 photographer O
 at O
 detroit B-ORG
-free I-ORG
-press I-ORG
+free O
+press B-ORG
 and O
 currently O
 working O
@@ -65243,8 +65243,8 @@ is O
 spreading O
 , O
 major B-ORG
-league I-ORG
-baseball I-ORG
+league O
+baseball B-ORG
 plans O
 to O
 warn O
@@ -65673,8 +65673,8 @@ morning O
 
 the O
 world B-ORG
-health I-ORG
-organization I-ORG
+health O
+organization B-ORG
 says O
 there O
 are O
@@ -67303,8 +67303,8 @@ international O
 tourist O
 in O
 new B-LOC
-york I-LOC
-city I-LOC
+york O
+city B-LOC
 did O
 most O
 of O
@@ -67657,11 +67657,11 @@ attorney O
 with O
 the O
 brady B-ORG
-center I-ORG
-to I-ORG
-prevent I-ORG
-gun I-ORG
-violence I-ORG
+center O
+to O
+prevent O
+gun O
+violence B-ORG
 who O
 filed O
 the O
@@ -68587,8 +68587,8 @@ today O
 , O
 the O
 world B-ORG
-health I-ORG
-organization I-ORG
+health O
+organization B-ORG
 announced O
 it O
 is O
@@ -70101,7 +70101,7 @@ smart O
 
 here O
 's O
-cnn1O B-ORG
+cnn's B-ORG
 justice O
 correspondent O
 kelli O
@@ -71016,8 +71016,8 @@ hazing O
 death O
 at O
 platsberg B-ORG
-state I-ORG
-university I-ORG
+state O
+university B-ORG
 of O
 new B-LOC
 york I-LOC
@@ -71121,7 +71121,7 @@ home O
 
 raining O
 in O
-l.a1 B-LOC
+l.a. B-LOC
 , O
 raining O
 in O
@@ -72183,8 +72183,8 @@ his O
 stake O
 in O
 aol B-ORG
-time I-ORG
-warner I-ORG
+time O
+warner B-ORG
 . O
 
 that O
@@ -73423,7 +73423,7 @@ be O
 killed O
 covering O
 the O
-israeli1GPE-1GPEpalestinian B-LOC
+israeli-palestinian B-LOC
 conflict O
 . O
 
@@ -73780,7 +73780,7 @@ thank O
 the O
 president O
 for O
-spain1G B-LOC
+spain's B-LOC
 diplomatic O
 support O
 before O
@@ -75536,7 +75536,7 @@ put O
 a O
 spotlight O
 on O
-u.s1GPE./1GPEchina B-LOC
+u.s./china B-LOC
 relations O
 . O
 
@@ -75637,7 +75637,7 @@ the O
 briefcase O
 of O
 her O
-ex-1OR B-ORG
+ex-fbi B-ORG
 handler O
 , O
 james O
@@ -75709,7 +75709,7 @@ leung O
 , O
 a O
 prominent O
-chinese1GPE-amer B-LOC
+chinese-american B-LOC
 , O
 was O
 practically O
@@ -78155,9 +78155,9 @@ the O
 tells O
 the O
 new B-ORG
-york I-ORG
-daily I-ORG
-news I-ORG
+york O
+daily O
+news B-ORG
 and O
 others O
 dpa O
@@ -78223,8 +78223,8 @@ lives O
 on O
 the O
 upper B-LOC
-east I-LOC
-side I-LOC
+east O
+side B-LOC
 , O
 works O
 at O
@@ -78618,8 +78618,8 @@ the O
 water O
 in O
 san B-LOC
-francisco I-LOC
-bay I-LOC
+francisco O
+bay B-LOC
 looking O
 for O
 more O
@@ -78649,8 +78649,8 @@ and O
 divers O
 into O
 san B-LOC
-francisco I-LOC
-bay I-LOC
+francisco O
+bay B-LOC
 . O
 
 they O
@@ -78880,8 +78880,8 @@ officially O
 out O
 at O
 aol B-ORG
-time I-ORG
-warner I-ORG
+time O
+warner B-ORG
 . O
 
 the O
@@ -78923,7 +78923,7 @@ home O
 team O
 here O
 , O
-cnn1O B-ORG
+cnn's B-ORG
 parent O
 company O
 , O
@@ -79014,8 +79014,8 @@ stock O
 price O
 of O
 aol B-ORG
-time I-ORG
-warner I-ORG
+time O
+warner B-ORG
 . O
 
 this O
@@ -79159,10 +79159,10 @@ the O
 land O
 , O
 at B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-t I-ORG
+& O
+amp O
+; O
+t B-ORG
 . O
 
 we O
@@ -79213,8 +79213,8 @@ curious O
 
 `` O
 fortune B-ORG
-'' I-ORG
-magazine I-ORG
+'' O
+magazine B-ORG
 looked O
 into O
 his O
@@ -79381,8 +79381,8 @@ guy O
 
 the O
 san B-ORG
-francisco I-ORG
-chronicle I-ORG
+francisco O
+chronicle B-ORG
 did O
 a O
 survey O
@@ -79418,10 +79418,10 @@ a O
 celebrity O
 until O
 at B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-t I-ORG
+& O
+amp O
+; O
+t B-ORG
 ever O
 made O
 him O
@@ -82570,8 +82570,8 @@ he O
 currently O
 at O
 atlanta B-ORG
-police I-ORG
-department I-ORG
+police O
+department B-ORG
 headquarters O
 pending O
 extradition O
@@ -83561,7 +83561,7 @@ case O
 reporter O
 : O
 the O
-cia1ORG-1ORGpentagon B-ORG
+cia-pentagon B-ORG
 reports O
 admits O
 the O
@@ -83739,13 +83739,13 @@ the O
 top O
 of O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-with I-LOC
-sherpa I-LOC
-norgay I-LOC
-. I-LOC
+with O
+sherpa O
+norgay O
+. O
 
 there O
 is O
@@ -83796,17 +83796,17 @@ a O
 little O
 bit O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-, I-LOC
-the I-LOC
-highest I-LOC
-summit I-LOC
-on I-LOC
-the I-LOC
-planet I-LOC
-. I-LOC
+, O
+the O
+highest O
+summit O
+on O
+the O
+planet O
+. O
 
 some O
 3d O
@@ -83837,8 +83837,8 @@ down O
 into O
 the O
 him B-LOC
-la I-LOC
-yas I-LOC
+la O
+yas B-LOC
 . O
 
 20 O
@@ -83878,16 +83878,16 @@ with O
 of O
 course O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-at I-LOC
-29,000 I-LOC
-feet I-LOC
-above I-LOC
-sea I-LOC
-level I-LOC
-. I-LOC
+at O
+29,000 O
+feet O
+above O
+sea O
+level O
+. O
 
 the O
 highest O
@@ -83929,10 +83929,10 @@ the O
 top O
 of O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-. I-LOC
+. O
 
 what O
 sir O
@@ -84060,10 +84060,10 @@ the O
 summit O
 of O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-. I-LOC
+. O
 
 we O
 're O
@@ -84107,8 +84107,8 @@ there O
 -DOCSTART- O
 
 aol B-ORG
-time I-ORG
-warner I-ORG
+time O
+warner B-ORG
 and O
 microsoft B-ORG
 are O
@@ -84138,8 +84138,8 @@ speed O
 . O
 
 aol B-ORG
-time I-ORG
-warner I-ORG
+time O
+warner B-ORG
 , O
 of O
 course O
@@ -84185,8 +84185,8 @@ lawsuit O
 . O
 
 aol B-ORG
-time I-ORG
-warner1ORG I-ORG
+time O
+warnerings B-ORG
 our O
 corporate O
 parent O
@@ -85824,8 +85824,8 @@ back O
 to O
 the O
 european B-ORG
-space I-ORG
-agency I-ORG
+space O
+agency B-ORG
 in O
 germany B-LOC
 . O
@@ -85858,8 +85858,8 @@ one O
 by O
 the O
 zef B-LOC
-yot I-LOC
-union I-LOC
+yot O
+union B-LOC
 . O
 
 and O
@@ -86323,10 +86323,10 @@ and O
 ceo O
 of O
 martha B-ORG
-stewart I-ORG
-living I-ORG
-, I-ORG
-omnimedia I-ORG
+stewart O
+living O
+, O
+omnimedia B-ORG
 , O
 the O
 company O
@@ -86853,8 +86853,8 @@ game O
 . O
 
 major B-ORG
-league I-ORG
-baseball I-ORG
+league O
+baseball B-ORG
 took O
 76 O
 of O
@@ -87101,7 +87101,7 @@ also O
 joining O
 us O
 from O
-d.c1G B-LOC
+d.c.. B-LOC
 hello O
 , O
 william O
@@ -87375,9 +87375,9 @@ field O
 against O
 the O
 tampa B-ORG
-bay I-ORG
-devil I-ORG
-rays I-ORG
+bay O
+devil O
+rays B-ORG
 here O
 at O
 wrigley O
@@ -87610,8 +87610,8 @@ negative O
 but O
 did O
 major B-ORG
-league I-ORG
-baseball I-ORG
+league O
+baseball B-ORG
 have O
 all O
 of O
@@ -87834,8 +87834,8 @@ the O
 question O
 does O
 major B-ORG
-league I-ORG
-baseball I-ORG
+league O
+baseball B-ORG
 have O
 a O
 rule O
@@ -87875,8 +87875,8 @@ realm O
 
 the O
 national B-ORG
-basketball I-ORG
-association I-ORG
+basketball O
+association B-ORG
 holds O
 its O
 draft O
@@ -87953,7 +87953,7 @@ were O
 asked O
 in O
 a O
-cnn1 B-ORG
+cnn/ B-ORG
 '' O
 usa B-ORG
 today I-ORG
@@ -88336,8 +88336,8 @@ a O
 show O
 in O
 new B-LOC
-york I-LOC
-city I-LOC
+york O
+city B-LOC
 where O
 nick O
 loada O
@@ -92762,8 +92762,8 @@ light O
 when O
 `` O
 the B-ORG
-washington I-ORG
-post I-ORG
+washington O
+post B-ORG
 '' O
 had O
 a O
@@ -93306,9 +93306,9 @@ back O
 to O
 `` O
 people B-ORG
-in I-ORG
-the I-ORG
-news I-ORG
+in O
+the O
+news B-ORG
 . O
 '' O
 
@@ -93731,7 +93731,7 @@ call O
 the O
 just O
 concluded O
-israeli1GPE-1GPEamerican1 B-LOC
+israeli-american- B-LOC
 palestinian I-LOC
 summit O
 a O
@@ -94085,8 +94085,8 @@ as O
 merck B-ORG
 and O
 johnson B-ORG
-& I-ORG
-johnson I-ORG
+& O
+johnson B-ORG
 . O
 
 and O
@@ -94428,8 +94428,8 @@ summer O
 at O
 the O
 university B-ORG
-of I-ORG
-nevada I-ORG
+of O
+nevada B-ORG
 waxing O
 dormer O
 to O
@@ -94467,8 +94467,8 @@ officer O
 with O
 the O
 mercy B-ORG
-side I-ORG
-police I-ORG
+side O
+police B-ORG
 . O
 
 it O
@@ -97189,14 +97189,14 @@ gather O
 tomorrow O
 in O
 st B-LOC
-. I-LOC
+. O
 
 louis B-LOC
-for I-LOC
-their I-LOC
-semiannual I-LOC
-meeting I-LOC
-. I-LOC
+for O
+their O
+semiannual O
+meeting O
+. O
 
 under O
 a O
@@ -97207,10 +97207,10 @@ year O
 by O
 the O
 national B-ORG
-conference I-ORG
-of I-ORG
-catholic I-ORG
-bishops I-ORG
+conference O
+of O
+catholic O
+bishops B-ORG
 , O
 diocese O
 officials O
@@ -97293,15 +97293,15 @@ survivors O
 network O
 in O
 st B-LOC
-. I-LOC
+. O
 
 louis B-LOC
-and I-LOC
-also I-LOC
-joining I-LOC
-us I-LOC
-from I-LOC
-detroit1GPE I-LOC
+and O
+also O
+joining O
+us O
+from O
+detroit B-LOC
 joe O
 mayor O
 , O
@@ -97368,7 +97368,7 @@ story O
 in O
 washington B-LOC
 , O
-d.c1 B-LOC
+d.c. B-LOC
 , O
 involving O
 the O
@@ -98203,7 +98203,7 @@ it's O
 composed O
 of O
 the O
-u.s1 B-LOC
+u.s. B-LOC
 , O
 russia B-LOC
 , O
@@ -98525,7 +98525,7 @@ the O
 british B-LOC
 throne O
 , O
-cnn1O B-ORG
+cnn's B-ORG
 walter O
 rodgers O
 has O
@@ -98874,7 +98874,7 @@ in O
 the O
 making O
 calls O
-britain1G B-LOC
+britain's B-LOC
 next O
 king O
 pa. O
@@ -98960,8 +98960,8 @@ nasa B-ORG
 and O
 the O
 european B-ORG
-space I-ORG
-agency I-ORG
+space O
+agency B-ORG
 both O
 launch O
 missions O
@@ -99369,7 +99369,7 @@ it O
 out O
 of O
 the O
-earth1L B-LOC
+earth's B-LOC
 orbit O
 all O
 the O
@@ -100778,8 +100778,8 @@ from O
 chip O
 maker O
 advanced B-ORG
-micro I-ORG
-devices I-ORG
+micro O
+devices B-ORG
 . O
 
 the O
@@ -101770,8 +101770,8 @@ next O
 on O
 `` O
 larry B-ORG
-king I-ORG
-live I-ORG
+king O
+live B-ORG
 . O
 '' O
 
@@ -101846,8 +101846,8 @@ e O
 produced O
 by O
 cbs B-ORG
-news I-ORG
-productions I-ORG
+news O
+productions B-ORG
 for O
 a O
 & O
@@ -103414,12 +103414,12 @@ dream O
 they O
 're O
 mt B-LOC
-. I-LOC
+. O
 
 everest B-LOC
-to I-LOC
-concur I-LOC
-. I-LOC
+to O
+concur O
+. O
 
 is O
 n't O
@@ -103793,8 +103793,8 @@ according O
 to O
 the O
 national B-ORG
-catholic I-ORG
-reporter I-ORG
+catholic O
+reporter B-ORG
 . O
 
 law O
@@ -104731,7 +104731,7 @@ talking O
 about O
 getting O
 the O
-Canadian1GPE- B-LOC
+Canadian-born B-LOC
 governor O
 of O
 I O
@@ -107055,12 +107055,12 @@ people O
 that O
 come O
 to O
-~1 B-ORG
+~K B-ORG
 Mart I-ORG
 or O
 Sam B-ORG
-'s I-ORG
-Club I-ORG
+'s O
+Club B-ORG
 . O
 
 They O
@@ -109479,8 +109479,8 @@ So O
 yeah O
 , O
 Bank B-ORG
-of I-ORG
-America1O I-ORG
+of O
+America's B-ORG
 everywhere O
 . O
 
@@ -110013,8 +110013,8 @@ out O
 I O
 remember O
 Bank B-ORG
-of I-ORG
-America I-ORG
+of O
+America B-ORG
 was O
 -- O
 kind O
@@ -110359,8 +110359,8 @@ Subway B-ORG
 , O
 uh O
 Atlanta B-ORG
-Bread I-ORG
-Company I-ORG
+Bread O
+Company B-ORG
 . O
 
 B O
@@ -112523,8 +112523,8 @@ moving O
 company O
 , O
 Classic B-ORG
-Design I-ORG
-Services I-ORG
+Design O
+Services B-ORG
 , O
 Diane O
 Okay O
@@ -113993,10 +113993,10 @@ with O
 that O
 is O
 the O
-~1OR B-ORG
+~CIA B-ORG
 and O
 the O
-~1OR B-ORG
+~FBI B-ORG
 and O
 who O
 's O
@@ -114310,7 +114310,7 @@ any O
 outside O
 of O
 the O
-~1G B-LOC
+~US B-LOC
 . O
 
 Sherri O
@@ -114472,7 +114472,7 @@ someone O
 from O
 outside O
 the O
-~1G B-LOC
+~US B-LOC
 . O
 
 Sherri O
@@ -115019,7 +115019,7 @@ common O
 problem O
 in O
 the O
-~1G B-LOC
+~US B-LOC
 . O
 
 Sherri O
@@ -119136,13 +119136,13 @@ it O
 's O
 like O
 , O
-~1G B-LOC
+~LA B-LOC
 would O
 have O
 like O
 , O
 turned O
-~1G B-LOC
+~LA B-LOC
 upside O
 down O
 , O
@@ -119246,7 +119246,7 @@ one O
 took O
 place O
 in O
-~1G B-LOC
+~LA B-LOC
 , O
 which O
 is O
@@ -119272,9 +119272,9 @@ uh O
 ( O
 ( O
 Redoak B-LOC
-) I-LOC
-) I-LOC
-City I-LOC
+) O
+) O
+City B-LOC
 . O
 
 Christina O
@@ -119306,7 +119306,7 @@ shift O
 San B-LOC
 Francisco I-LOC
 and O
-~1G B-LOC
+~LA B-LOC
 to O
 , O
 uh O
@@ -124582,7 +124582,7 @@ help O
 or O
 hurt O
 the O
-Israeli1GPE-1GPEPalestinian B-LOC
+Israeli-Palestinian B-LOC
 peace O
 process O
 ? O
@@ -125787,7 +125787,7 @@ help O
 or O
 hurt O
 the O
-Israeli1GPE-1GPEPalestinian B-LOC
+Israeli-Palestinian B-LOC
 peace O
 process O
 ? O
@@ -127068,7 +127068,7 @@ help O
 or O
 hurt O
 the O
-Israeli1GPE-1GPEPalestinian B-LOC
+Israeli-Palestinian B-LOC
 peace O
 process O
 ? O
@@ -128435,7 +128435,7 @@ help O
 or O
 hurt O
 the O
-Israeli1GPE-1GPEPalestinian B-LOC
+Israeli-Palestinian B-LOC
 peace O
 process O
 ? O
@@ -134125,7 +134125,7 @@ presents O
 um O
 -- O
 the O
-~1G B-LOC
+~US B-LOC
 position O
 -- O
 uh O
@@ -134529,7 +134529,7 @@ would O
 actually O
 endanger O
 the O
-~1G B-LOC
+~US B-LOC
 even O
 more O
 . O
@@ -134977,7 +134977,7 @@ another O
 attack O
 on O
 the O
-~1G B-LOC
+~US B-LOC
 ? O
 
 Uh O
@@ -135672,7 +135672,7 @@ States I-LOC
 sending O
 a O
 senior O
-~1G B-LOC
+~US B-LOC
 official O
 , O
 I O
@@ -136887,7 +136887,7 @@ a O
 change O
 for O
 the O
-~1OR B-ORG
+~PLO B-ORG
 Mike O
 Well O
 , O
@@ -136970,7 +136970,7 @@ drastic O
 elements O
 of O
 the O
-~1OR B-ORG
+~PLO B-ORG
 that O
 , O
 uh O
@@ -137195,7 +137195,7 @@ does O
 that O
 mean O
 the O
-~1OR B-ORG
+~PLO B-ORG
 will O
 split O
 ? O
@@ -138291,7 +138291,7 @@ you O
 know O
 , O
 the O
-~1O B-ORG
+~UN B-ORG
 just O
 kind O
 of O
@@ -141030,8 +141030,8 @@ season O
 walking O
 in O
 New B-LOC
-York I-LOC
-City I-LOC
+York O
+City B-LOC
 , O
 so O
 Jane O
@@ -146414,7 +146414,7 @@ Afghanistan B-LOC
 did O
 a O
 A O
--1GPEghani B-LOC
+-ghanistan B-LOC
 . O
 
 B O
@@ -147939,7 +147939,7 @@ I O
 'm O
 Allan O
 from O
-~1G B-LOC
+~LA B-LOC
 . O
 
 A O
@@ -147950,9 +147950,9 @@ what O
 ? O
 
 Allan O
-~1G B-LOC
+~LA B-LOC
 , O
-~1G B-LOC
+~LA B-LOC
 . O
 
 A O
@@ -148016,7 +148016,7 @@ talked O
 to O
 somebody O
 from O
-~1G B-LOC
+~LA B-LOC
 a O
 couple O
 days O
@@ -149323,8 +149323,8 @@ confirm O
 
 The O
 Davao B-ORG
-Medical I-ORG
-Center I-ORG
+Medical O
+Center B-ORG
 , O
 a O
 regional O
@@ -149660,7 +149660,7 @@ February O
 Similar O
 claims O
 over O
-US1GPE-b B-LOC
+US-based B-LOC
 auctions O
 were O
 settled O
@@ -149843,8 +149843,8 @@ as O
 chief O
 of O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 , O
 the O
 entertainment O
@@ -149900,8 +149900,8 @@ a O
 shareholder O
 of O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 . O
 
 `` O
@@ -149986,8 +149986,8 @@ preferred O
 shares O
 in O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 . O
 
 Diller O
@@ -150014,7 +150014,7 @@ candidate O
 to O
 run O
 Vivendi B-ORG
-Universal1O I-ORG
+Universal's I-ORG
 entertainment O
 unit O
 in O
@@ -150091,8 +150091,8 @@ as O
 CEO O
 of O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 . O
 '' O
 
@@ -150107,8 +150107,8 @@ media O
 group O
 after O
 AOL B-ORG
-Time I-ORG
-Warner I-ORG
+Time O
+Warner B-ORG
 of O
 the O
 United B-LOC
@@ -150284,8 +150284,8 @@ month O
 sources O
 told O
 Agence B-ORG
-France I-ORG
-Presse I-ORG
+France O
+Presse B-ORG
 financial O
 news O
 unit O
@@ -150336,15 +150336,15 @@ like O
 Metro-Goldwyn-Mayer B-ORG
 , O
 Liberty B-ORG
-Media I-ORG
-Corp I-ORG
+Media O
+Corp B-ORG
 , O
 News B-ORG
 Corp I-ORG
 and O
 General B-ORG
-Electric I-ORG
-Co I-ORG
+Electric O
+Co B-ORG
 's O
 NBC B-ORG
 have O
@@ -150868,10 +150868,10 @@ One O
 group O
 , O
 Lesbians B-ORG
-Against I-ORG
-Boys I-ORG
-Invading I-ORG
-Anything I-ORG
+Against O
+Boys O
+Invading O
+Anything B-ORG
 , O
 carried O
 signs O
@@ -151024,7 +151024,7 @@ in O
 support O
 of O
 the O
-US1GPE B-LOC
+US-led B-LOC
 invasion O
 of O
 Iraq B-LOC
@@ -151211,8 +151211,8 @@ the O
 Army O
 's O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 in O
 Iraq B-LOC
 , O
@@ -151316,8 +151316,8 @@ Montreal B-LOC
 , O
 `` O
 Stop B-ORG
-the I-ORG
-War I-ORG
+the O
+War B-ORG
 , O
 '' O
 a O
@@ -151635,7 +151635,7 @@ a O
 Dutch B-LOC
 citizen O
 of O
-Chinese1GPE-1GPEIndonesian B-LOC
+Chinese-Indonesian B-LOC
 origin O
 . O
 
@@ -151799,7 +151799,7 @@ protest O
 against O
 the O
 ongoing O
-US1GPE B-LOC
+US-led B-LOC
 military O
 campaign O
 in O
@@ -152079,7 +152079,7 @@ perspectives O
 for O
 the O
 ( O
-Russian1GPE-1GPEGerman1GPE-1GPEFrench B-LOC
+Russian-German-French B-LOC
 ) O
 axis O
 , O
@@ -152221,7 +152221,7 @@ United B-LOC
 States I-LOC
 than O
 the O
-pro-1GPEEuro B-LOC
+pro-European B-LOC
 , O
 anti-war O
 camps O
@@ -152264,7 +152264,7 @@ eight O
 billion O
 dollars O
 in O
-Soviet1GPE B-LOC
+Soviet-era B-LOC
 debt O
 that O
 Baghdad B-LOC
@@ -152280,8 +152280,8 @@ will O
 . O
 
 Kommersant B-ORG
-business I-ORG
-daily I-ORG
+business O
+daily B-ORG
 joined O
 in O
 , O
@@ -152383,7 +152383,7 @@ in O
 return O
 for O
 better O
-Russia1GPE-1GPEUS B-LOC
+Russia-US B-LOC
 relations O
 . O
 
@@ -152468,7 +152468,7 @@ three O
 leaders O
 before O
 the O
-US1GPE-1GPEBritish B-LOC
+US-British B-LOC
 invasion O
 of O
 Iraq B-LOC
@@ -152516,7 +152516,7 @@ closely O
 associated O
 with O
 the O
-anti-1GPEWashin B-LOC
+anti-Washington B-LOC
 stance O
 of O
 Schroeder O
@@ -152733,7 +152733,7 @@ of O
 a O
 family O
 in O
-India1 B-LOC
+Indias B-LOC
 northeastern O
 state O
 of O
@@ -152788,7 +152788,7 @@ miles O
 ) O
 south O
 of O
-Tripura1 B-LOC
+Tripuras B-LOC
 state O
 capital O
 Agartala B-LOC
@@ -152978,7 +152978,7 @@ of O
 the O
 fallout O
 from O
-Russia1G B-LOC
+Russia's B-LOC
 vocal O
 opposition O
 to O
@@ -152989,7 +152989,7 @@ to O
 be O
 a O
 swift O
-US1GPE B-LOC
+US-led B-LOC
 campaign O
 in O
 Iraq B-LOC
@@ -153001,7 +153001,7 @@ diplomacy O
 experts O
 told O
 a O
-Kremlin1GPE B-LOC
+Kremlin-run B-LOC
 forum O
 that O
 countries O
@@ -153161,9 +153161,9 @@ of O
 Moscow B-LOC
 's O
 Center B-ORG
-of I-ORG
-Strategic I-ORG
-Studies I-ORG
+of O
+Strategic O
+Studies B-ORG
 . O
 
 Negotiations O
@@ -153507,9 +153507,9 @@ Khakamada O
 of O
 the O
 Union B-ORG
-of I-ORG
-Rightist I-ORG
-Forces I-ORG
+of O
+Rightist O
+Forces B-ORG
 . O
 
 `` O
@@ -153705,7 +153705,7 @@ affect O
 the O
 elections O
 unless O
-Russia1G B-LOC
+Russia's B-LOC
 failure O
 in O
 Iraq B-LOC
@@ -154100,9 +154100,9 @@ documents O
 filed O
 in O
 Los B-ORG
-Angeles I-ORG
-Superior I-ORG
-Court I-ORG
+Angeles O
+Superior O
+Court B-ORG
 . O
 
 Anne-Marie O
@@ -154143,8 +154143,8 @@ Crichton O
 , O
 a O
 Harvard B-ORG
-Medical I-ORG
-School I-ORG
+Medical O
+School B-ORG
 graduate O
 , O
 will O
@@ -154735,8 +154735,8 @@ by O
 the O
 official O
 Xinhua B-ORG
-news I-ORG
-agency I-ORG
+news O
+agency B-ORG
 as O
 saying O
 . O
@@ -154990,9 +154990,9 @@ by O
 the O
 official O
 Korean B-ORG
-Central I-ORG
-News I-ORG
-Agency I-ORG
+Central O
+News O
+Agency B-ORG
 , O
 made O
 no O
@@ -156101,20 +156101,20 @@ the O
 comprehensive O
 approach O
 to O
-US1GPE-1GPEN B-LOC
+US-North B-LOC
 Korea I-LOC
-relations I-LOC
-that I-LOC
-we I-LOC
-had I-LOC
-talked I-LOC
-about I-LOC
-before I-LOC
-, I-LOC
-'' I-LOC
-he I-LOC
-said I-LOC
-. I-LOC
+relations O
+that O
+we O
+had O
+talked O
+about O
+before O
+, O
+'' O
+he O
+said O
+. O
 
 South B-LOC
 Korea I-LOC
@@ -156311,8 +156311,8 @@ Tuesday O
 The O
 ruling O
 Millennium B-ORG
-Democratic I-ORG
-Party I-ORG
+Democratic O
+Party B-ORG
 ( O
 MDP B-ORG
 ) O
@@ -156439,8 +156439,8 @@ by-elections O
 The O
 opposition O
 Grand B-ORG
-National I-ORG
-Party I-ORG
+National O
+Party B-ORG
 ( O
 GNP B-ORG
 ) O
@@ -156507,8 +156507,8 @@ AFP B-ORG
 ) O
 The O
 Daily B-ORG
-Planet I-ORG
-Ltd I-ORG
+Planet O
+Ltd B-ORG
 , O
 about O
 to O
@@ -156521,8 +156521,8 @@ list O
 on O
 the O
 Australian B-ORG
-Stock I-ORG
-Exchange I-ORG
+Stock O
+Exchange B-ORG
 , O
 plans O
 to O
@@ -156542,7 +156542,7 @@ Disneyland O
 here O
 , O
 the O
-Melbourne1GPE-b B-LOC
+Melbourne-based B-LOC
 bordello O
 announced O
 Wednesday O
@@ -156714,8 +156714,8 @@ road O
 to O
 the O
 Australian B-ORG
-Stock I-ORG
-Exchange I-ORG
+Stock O
+Exchange B-ORG
 since O
 the O
 idea O
@@ -157011,8 +157011,8 @@ dollars O
 , O
 the O
 Los B-ORG
-Angeles I-ORG
-Times I-ORG
+Angeles O
+Times B-ORG
 said O
 Friday O
 . O
@@ -157035,8 +157035,8 @@ its O
 US B-LOC
 unit O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 and O
 other O
 assets O
@@ -157121,8 +157121,8 @@ division O
 , O
 including O
 Universal B-ORG
-Studios I-ORG
-Hollywood I-ORG
+Studios O
+Hollywood B-ORG
 , O
 Universal B-ORG
 Orlando I-ORG
@@ -157222,8 +157222,8 @@ the O
 sale O
 of O
 Vivendi B-ORG
-Universal I-ORG
-Entertainment I-ORG
+Universal O
+Entertainment B-ORG
 was O
 a O
 major O
@@ -157260,8 +157260,8 @@ music O
 business O
 , O
 Universal B-ORG
-Music I-ORG
-Group I-ORG
+Music O
+Group B-ORG
 , O
 and O
 had O
@@ -157659,9 +157659,9 @@ issue O
 with O
 the O
 Office B-ORG
-of I-ORG
-Fair I-ORG
-Trading I-ORG
+of O
+Fair O
+Trading B-ORG
 . O
 '' O
 
@@ -157745,7 +157745,7 @@ Shalom O
 on O
 Wednesday O
 stressed O
-Qatar1G B-LOC
+Qatar's B-LOC
 role O
 in O
 the O
@@ -157972,9 +157972,9 @@ WorldCom B-ORG
 and O
 the O
 Securities B-ORG
-and I-ORG
-Exchange I-ORG
-Commission I-ORG
+and O
+Exchange O
+Commission B-ORG
 have O
 reached O
 a O
@@ -157993,8 +157993,8 @@ case O
 , O
 The O
 Wall B-ORG
-Street I-ORG
-Journal I-ORG
+Street O
+Journal B-ORG
 reported O
 Monday O
 . O
@@ -158265,7 +158265,7 @@ has O
 already O
 sold O
 his O
-Georgia1GPE-b B-LOC
+Georgia-based B-LOC
 yacht O
 building O
 business O
@@ -158859,7 +158859,7 @@ in O
 Iraq B-LOC
 , O
 but O
-US1GPE B-LOC
+US-led B-LOC
 coalition O
 officials O
 Monday O
@@ -158902,11 +158902,11 @@ source O
 at O
 the O
 Organisation B-ORG
-of I-ORG
-Reconstruction I-ORG
-and I-ORG
-Humanitarian I-ORG
-Assistance I-ORG
+of O
+Reconstruction O
+and O
+Humanitarian O
+Assistance B-ORG
 ( O
 ORHA B-ORG
 ) O
@@ -159194,7 +159194,7 @@ this O
 week O
 on O
 a O
-US1GPE-1GPEBritish B-LOC
+US-British B-LOC
 draft O
 resolution O
 to O
@@ -159427,7 +159427,7 @@ upcoming O
 G-8 B-LOC
 meeting O
 , O
-US1GPE-1GPECanada B-LOC
+US-Canada B-LOC
 ( O
 relations O
 ) O
@@ -159483,9 +159483,9 @@ situation O
 in O
 the O
 Democratic B-LOC
-Republic I-LOC
-of I-LOC
-Congo I-LOC
+Republic O
+of O
+Congo B-LOC
 and O
 on O
 the O
@@ -159572,10 +159572,10 @@ summit O
 of O
 the O
 Group B-LOC
-of I-LOC
-Eight I-LOC
-industrial I-LOC
-powers I-LOC
+of O
+Eight O
+industrial O
+powers B-LOC
 and O
 aid O
 to O
@@ -159880,9 +159880,9 @@ Saturday O
 
 The O
 Times B-ORG
-of I-ORG
-India I-ORG
-newspaper I-ORG
+of O
+India O
+newspaper B-ORG
 quoted O
 Digvijay O
 Singh O
@@ -160004,8 +160004,8 @@ Vajpayee O
 's O
 ruling O
 Bharatiya B-ORG
-Janata I-ORG
-Party I-ORG
+Janata O
+Party B-ORG
 , O
 Pramod O
 Mahajan O
@@ -160462,7 +160462,7 @@ others O
 . O
 
 New B-LOC
-Zealand1GPE- I-LOC
+Zealand-born I-LOC
 Hunter O
 reportedly O
 had O
@@ -160737,7 +160737,7 @@ in O
 carrying O
 out O
 the O
-US1GPE-ba B-LOC
+US-backed B-LOC
 Middle I-LOC
 East I-LOC
 `` O
@@ -160859,7 +160859,7 @@ free O
 circulation O
 on O
 the O
-trans-1LOC B-LOC
+trans-Gaza B-LOC
 highway O
 as O
 troops O
@@ -161014,7 +161014,7 @@ free O
 movement O
 along O
 the O
-trans-1LOC B-LOC
+trans-Gaza B-LOC
 highway O
 , O
 several O
@@ -161485,14 +161485,14 @@ outcome O
 of O
 a O
 U.N B-ORG
-. I-ORG
+. O
 
 Security O
 Council B-ORG
-debate I-ORG
-on I-ORG
-the I-ORG
-U.S1GPE.-backed B-LOC
+debate O
+on O
+the O
+U.S.-backed B-LOC
 war O
 resolution O
 . O
@@ -161794,7 +161794,7 @@ Secretary-General O
 Kofi O
 Annan O
 called O
-Baghdad1G B-LOC
+Baghdad's B-LOC
 missile O
 destruction O
 `` O
@@ -161837,7 +161837,7 @@ its O
 veto O
 against O
 the O
-U.S1GPE.-ba B-LOC
+U.S.-backed B-LOC
 resolution O
 . O
 
@@ -162298,8 +162298,8 @@ the O
 parliament O
 of O
 Serbia B-LOC
-and I-LOC
-Montenegro I-LOC
+and O
+Montenegro B-LOC
 , O
 the O
 country O
@@ -162942,7 +162942,7 @@ different O
 proposals O
 : O
 a O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 plan O
 for O
 disarmament O
@@ -163314,9 +163314,9 @@ AP B-ORG
 ) O
 The O
 Hong B-ORG
-Kong I-ORG
-Jockey I-ORG
-Club I-ORG
+Kong O
+Jockey O
+Club B-ORG
 is O
 in O
 talks O
@@ -163339,14 +163339,14 @@ Tuesday O
 
 The O
 South B-ORG
-China I-ORG
-Morning I-ORG
-Post I-ORG
+China O
+Morning O
+Post B-ORG
 quoted O
 Hong B-ORG
-Kong I-ORG
-Jockey I-ORG
-Club I-ORG
+Kong O
+Jockey O
+Club B-ORG
 Chief O
 Executive O
 Lawrence O
@@ -163377,8 +163377,8 @@ entity O
 while O
 the O
 Macau B-ORG
-Jockey I-ORG
-Club I-ORG
+Jockey O
+Club B-ORG
 is O
 a O
 for-profit O
@@ -163416,9 +163416,9 @@ anyone O
 but O
 the O
 Hong B-ORG
-Kong I-ORG
-Jockey I-ORG
-Club I-ORG
+Kong O
+Jockey O
+Club B-ORG
 . O
 
 Macau B-LOC
@@ -163760,9 +163760,9 @@ In O
 Washington B-LOC
 , O
 Joint B-ORG
-Chiefs I-ORG
-of I-ORG
-Staff I-ORG
+Chiefs O
+of O
+Staff B-ORG
 Chairman O
 Gen. O
 Richard O
@@ -164203,9 +164203,9 @@ of O
 Erdogan O
 's O
 Justice B-ORG
-and I-ORG
-Development I-ORG
-Party I-ORG
+and O
+Development O
+Party B-ORG
 met O
 Tuesday O
 evening O
@@ -164399,13 +164399,13 @@ an O
 analyst O
 at O
 the O
-Washington1GPE-b B-LOC
+Washington-based B-LOC
 Center B-ORG
-for I-ORG
-Strategic I-ORG
-and I-ORG
-International I-ORG
-Studies I-ORG
+for O
+Strategic O
+and O
+International O
+Studies B-ORG
 . O
 
 `` O
@@ -164583,7 +164583,7 @@ ministers O
 debated O
 the O
 impending O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 war O
 against O
 Iraq B-LOC
@@ -164628,9 +164628,9 @@ attend O
 a O
 special O
 United B-ORG
-Nations I-ORG
-Security I-ORG
-Council I-ORG
+Nations O
+Security O
+Council B-ORG
 meeting O
 in O
 New B-LOC
@@ -164696,9 +164696,9 @@ members O
 of O
 the O
 United B-ORG
-Nations I-ORG
-Security I-ORG
-Council I-ORG
+Nations O
+Security O
+Council B-ORG
 we O
 want O
 to O
@@ -164914,8 +164914,8 @@ He O
 told O
 the O
 House B-ORG
-of I-ORG
-Commons I-ORG
+of O
+Commons B-ORG
 the O
 Iraq B-LOC
 crisis O
@@ -165622,8 +165622,8 @@ division O
 _ O
 the O
 51st B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 , O
 with O
 8,000 O
@@ -165917,7 +165917,7 @@ single-file O
 to O
 cross O
 the O
-Iraqi1GPE-1GPEKuwait B-LOC
+Iraqi-Kuwait B-LOC
 border O
 . O
 
@@ -165937,8 +165937,8 @@ the O
 Army B-ORG
 's O
 3rd B-ORG
-Infantry I-ORG
-Division I-ORG
+Infantry O
+Division B-ORG
 are O
 likely O
 to O
@@ -166281,8 +166281,8 @@ quoted O
 by O
 the O
 British B-ORG
-Broadcasting I-ORG
-Corp I-ORG
+Broadcasting O
+Corp B-ORG
 . O
 
 's O
@@ -166753,8 +166753,8 @@ AP B-ORG
 ) O
 Retired O
 General B-ORG
-Electric I-ORG
-Co I-ORG
+Electric O
+Co B-ORG
 . O
 
 Chairman O
@@ -166796,8 +166796,8 @@ editor O
 of O
 the O
 Harvard B-ORG
-Business I-ORG
-Review I-ORG
+Business O
+Review B-ORG
 _ O
 revealed O
 she O
@@ -166849,10 +166849,10 @@ law O
 firm O
 of O
 Shearman B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-Sterling I-ORG
+& O
+amp O
+; O
+Sterling B-ORG
 in O
 New B-LOC
 York I-LOC
@@ -166875,10 +166875,10 @@ personnel O
 file O
 by O
 Shearman B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-Sterling I-ORG
+& O
+amp O
+; O
+Sterling B-ORG
 , O
 a O
 prestigious O
@@ -167270,12 +167270,12 @@ Russell O
 of O
 the O
 Humanitarian B-ORG
-Operations I-ORG
-Center I-ORG
+Operations O
+Center B-ORG
 , O
 a O
 joint O
-U.S1GPE.-1GPEKuwaiti B-LOC
+U.S.-Kuwaiti B-LOC
 agency O
 . O
 
@@ -167331,7 +167331,7 @@ blasted O
 buildings O
 on O
 the O
-Iraq1GPE-1GPEKuwait B-LOC
+Iraq-Kuwait B-LOC
 border O
 , O
 an O
@@ -167646,8 +167646,8 @@ mouth O
 of O
 the O
 Khor B-LOC
-Abdallah I-LOC
-river I-LOC
+Abdallah O
+river B-LOC
 Tuesday O
 night O
 with O
@@ -167698,8 +167698,8 @@ estimates O
 by O
 the O
 World B-ORG
-Food I-ORG
-Program I-ORG
+Food O
+Program B-ORG
 . O
 
 About O
@@ -167724,8 +167724,8 @@ handouts O
 , O
 The O
 World B-ORG
-Food I-ORG
-Program I-ORG
+Food O
+Program B-ORG
 , O
 a O
 U.N B-ORG
@@ -167837,7 +167837,7 @@ are O
 deposited O
 in O
 a O
-U.N1ORG.-contro B-ORG
+U.N.-controlled B-ORG
 escrow O
 account O
 . O
@@ -167958,7 +167958,7 @@ States I-LOC
 control O
 over O
 the O
-U.N1ORG.-contro B-ORG
+U.N.-controlled B-ORG
 account O
 , O
 which O
@@ -168269,7 +168269,7 @@ chest O
 _ O
 retired O
 from O
-Denmark1G B-LOC
+Denmark's B-LOC
 national O
 team O
 after O
@@ -168576,32 +168576,32 @@ Sunday O
 rejected O
 the O
 U.N B-ORG
-. I-ORG
+. O
 
 Security O
 Council B-ORG
-'s I-ORG
-plan I-ORG
-to I-ORG
-discuss I-ORG
-the I-ORG
-standoff I-ORG
-over I-ORG
-its I-ORG
-suspected I-ORG
-nuclear I-ORG
-weapons I-ORG
-development I-ORG
-, I-ORG
-calling I-ORG
-it I-ORG
-`` I-ORG
-a I-ORG
-prelude I-ORG
-to I-ORG
-war I-ORG
-. I-ORG
-'' I-ORG
+'s O
+plan O
+to O
+discuss O
+the O
+standoff O
+over O
+its O
+suspected O
+nuclear O
+weapons O
+development O
+, O
+calling O
+it O
+`` O
+a O
+prelude O
+to O
+war O
+. O
+'' O
 
 Meanwhile O
 , O
@@ -168935,13 +168935,13 @@ issue O
 If O
 the O
 U.N B-ORG
-. I-ORG
+. O
 
 Security O
 Council B-ORG
-cooperates I-ORG
-with I-ORG
-U.S1GPE B-LOC
+cooperates O
+with O
+U.S B-LOC
 . O
 
 efforts O
@@ -169221,8 +169221,8 @@ TOKYO B-LOC
 AP B-ORG
 ) O
 Toyota B-ORG
-Motor I-ORG
-Corp I-ORG
+Motor O
+Corp B-ORG
 . O
 
 said O
@@ -169407,7 +169407,7 @@ Cho O
 the O
 membership O
 of O
-Toyota1O B-ORG
+Toyota's B-ORG
 board O
 of O
 directors O
@@ -169698,9 +169698,9 @@ cash O
 from O
 the O
 Zambia B-ORG
-National I-ORG
-Commercial I-ORG
-Bank I-ORG
+National O
+Commercial O
+Bank B-ORG
 in O
 Lusaka B-LOC
 . O
@@ -169980,7 +169980,7 @@ both O
 have O
 opposed O
 the O
-U.S1G B-LOC
+U.S.- B-LOC
 led O
 war O
 on O
@@ -170096,7 +170096,7 @@ broad O
 opposition O
 to O
 the O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 attack O
 on O
 Iraq B-LOC
@@ -170142,11 +170142,11 @@ Wanadi O
 of O
 the O
 Center B-ORG
-for I-ORG
-Strategic I-ORG
-and I-ORG
-International I-ORG
-Studies I-ORG
+for O
+Strategic O
+and O
+International O
+Studies B-ORG
 in O
 Jakarta B-LOC
 . O
@@ -170361,7 +170361,7 @@ far O
 from O
 enough O
 for O
-Indonesia1G B-LOC
+Indonesia's B-LOC
 generals O
 . O
 
@@ -170515,7 +170515,7 @@ augment O
 the O
 Rapiers O
 with O
-Russia1G B-LOC
+Russia's B-LOC
 impressive O
 long-range O
 S-300 O
@@ -170570,7 +170570,7 @@ were O
 compatible O
 with O
 the O
-U.S1GPE.- B-LOC
+U.S.-made B-LOC
 F-16 O
 fighter-bombers O
 already O
@@ -170789,10 +170789,10 @@ spokesman O
 for O
 the O
 State B-ORG
-Office I-ORG
-for I-ORG
-Nuclear I-ORG
-Safety I-ORG
+Office O
+for O
+Nuclear O
+Safety B-ORG
 , O
 said O
 his O
@@ -171052,8 +171052,8 @@ the O
 appeal O
 with O
 Russian B-ORG
-Supreme I-ORG
-Court I-ORG
+Supreme O
+Court B-ORG
 , O
 the O
 Interfax B-ORG
@@ -171555,7 +171555,7 @@ Bush O
 gave O
 for O
 the O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 invasion O
 of O
 Iraq B-LOC
@@ -172148,25 +172148,25 @@ reporters O
 at O
 the O
 U.S B-ORG
-. I-ORG
+. O
 
 Central O
 Command B-ORG
-headquarters I-ORG
-, I-ORG
-also I-ORG
-disclosed I-ORG
-that I-ORG
-Marines I-ORG
-had I-ORG
-broken I-ORG
-up I-ORG
-violent I-ORG
-clashes I-ORG
-on I-ORG
-Wednesday I-ORG
-in I-ORG
-Tikrit1GPE B-LOC
+headquarters O
+, O
+also O
+disclosed O
+that O
+Marines O
+had O
+broken O
+up O
+violent O
+clashes O
+on O
+Wednesday O
+in O
+Tikrit B-LOC
 , O
 Saddam O
 's O
@@ -172357,19 +172357,19 @@ Gibson O
 , O
 a O
 University B-ORG
-of I-ORG
-Chicago I-ORG
+of O
+Chicago B-ORG
 professor O
 and O
 president O
 of O
 the O
 American B-ORG
-Association I-ORG
-for I-ORG
-Research I-ORG
-in I-ORG
-Baghdad I-ORG
+Association O
+for O
+Research O
+in O
+Baghdad B-ORG
 . O
 
 `` O
@@ -172498,8 +172498,8 @@ panel O
 of O
 the O
 Court B-ORG
-of I-ORG
-Appeals I-ORG
+of O
+Appeals B-ORG
 unanimously O
 upheld O
 a O
@@ -172551,7 +172551,7 @@ the O
 Federal B-ORG
 Court I-ORG
 , O
-Malaysia1G B-LOC
+Malaysia's B-LOC
 highest O
 court O
 . O
@@ -172801,7 +172801,7 @@ guaranteed O
 , O
 '' O
 the O
-London1GPE-b B-LOC
+London-based B-LOC
 group O
 said O
 in O
@@ -173004,8 +173004,8 @@ chance O
 that O
 the O
 Los B-ORG
-Angeles I-ORG
-Lakers I-ORG
+Angeles O
+Lakers B-ORG
 center O
 might O
 skip O
@@ -173034,7 +173034,7 @@ a.m. O
 at O
 a O
 Los B-LOC
-Angeles1GPE- I-LOC
+Angeles-area I-LOC
 hospital O
 , O
 team O
@@ -174565,7 +174565,7 @@ government O
 support O
 of O
 the O
-U.S1GPE. B-LOC
+U.S.-led B-LOC
 war O
 to O
 oust O
@@ -174633,9 +174633,9 @@ Malaysia B-LOC
 
 The O
 Immigration B-ORG
-and I-ORG
-Checkpoints I-ORG
-Authority I-ORG
+and O
+Checkpoints O
+Authority B-ORG
 said O
 it O
 began O
@@ -174806,9 +174806,9 @@ illness O
 . O
 
 Immigration B-ORG
-and I-ORG
-Checkpoints I-ORG
-Authority I-ORG
+and O
+Checkpoints O
+Authority B-ORG
 spokeswoman O
 Ngoon O
 Pei O
@@ -175146,8 +175146,8 @@ wedding O
 in O
 the O
 New B-LOC
-York I-LOC
-City I-LOC
+York O
+City B-LOC
 area O
 this O
 summer O
@@ -175589,7 +175589,7 @@ who O
 have O
 favored O
 a O
-U.N1ORG.-conv B-ORG
+U.N.-convened B-ORG
 conference O
 of O
 the O
@@ -175597,8 +175597,8 @@ kind O
 that O
 helped O
 establish O
-Afghanistan1G B-LOC
-post-1ORGTal B-ORG
+Afghanistan's B-LOC
+post-Taliban B-ORG
 government O
 . O
 
@@ -176140,7 +176140,7 @@ experts O
 . O
 
 The O
-U.S1 B-LOC
+U.S. B-LOC
 , O
 British B-LOC
 and O
@@ -176235,8 +176235,8 @@ Countries O
 in O
 the O
 Gulf B-ORG
-Cooperation I-ORG
-Council I-ORG
+Cooperation O
+Council B-ORG
 have O
 offered O
 to O
@@ -176495,8 +176495,8 @@ crossing O
 the O
 perilous O
 Strait B-LOC
-of I-LOC
-Gibraltar I-LOC
+of O
+Gibraltar B-LOC
 to O
 reach O
 the O
@@ -176728,8 +176728,8 @@ submitted O
 to O
 the O
 National B-ORG
-Press I-ORG
-Council I-ORG
+Press O
+Council B-ORG
 , O
 a O
 government-appointed O
@@ -176748,8 +176748,8 @@ general O
 of O
 the O
 National B-ORG
-Press I-ORG
-Council I-ORG
+Press O
+Council B-ORG
 , O
 Hashim O
 el-Jazz O
@@ -177116,7 +177116,7 @@ deal O
 
 `` O
 The O
-inter-1LOCKo B-LOC
+inter-Korean B-LOC
 declaration O
 on O
 denuclearization O
@@ -177150,7 +177150,7 @@ nukes O
 '' O
 said O
 the O
-North1G B-LOC
+North's B-LOC
 official O
 news O
 agency O
@@ -177300,8 +177300,8 @@ Yemen B-LOC
 and O
 the O
 United B-LOC
-Arab I-LOC
-Emirates I-LOC
+Arab O
+Emirates B-LOC
 in O
 2001 O
 . O
@@ -177350,8 +177350,8 @@ of O
 an O
 `` O
 axis B-LOC
-of I-LOC
-evil I-LOC
+of O
+evil B-LOC
 '' O
 along O
 with O
@@ -177601,8 +177601,8 @@ route O
 , O
 the O
 Republic B-LOC
-of I-LOC
-Korea I-LOC
+of O
+Korea B-LOC
 and O
 the O
 international O
@@ -178340,8 +178340,8 @@ Downer O
 told O
 the O
 Australian B-ORG
-Broadcasting I-ORG
-Corp I-ORG
+Broadcasting O
+Corp B-ORG
 . O
 
 Australia B-LOC
@@ -179146,7 +179146,7 @@ Cabinet O
 acceptance O
 of O
 the O
-U.S1GPE.-ba B-LOC
+U.S.-backed B-LOC
 `` O
 road O
 map O
@@ -179908,8 +179908,8 @@ legislature O
 , O
 the O
 Supreme B-ORG
-People's I-ORG
-Assembly I-ORG
+People's O
+Assembly B-ORG
 . O
 
 Although O
@@ -180316,7 +180316,7 @@ peaceful O
 manner O
 that O
 allows O
-Pyongyang1G B-LOC
+Pyongyang's B-LOC
 communist O
 regime O
 to O
@@ -180594,9 +180594,9 @@ South B-LOC
 Africa I-LOC
 's O
 Supreme B-ORG
-Court I-ORG
-of I-ORG
-Appeal I-ORG
+Court O
+of O
+Appeal B-ORG
 ruled O
 Tuesday O
 against O
@@ -180680,9 +180680,9 @@ Navsa O
 of O
 the O
 Supreme B-ORG
-Court I-ORG
-of I-ORG
-Appeal I-ORG
+Court O
+of O
+Appeal B-ORG
 , O
 the O
 highest O
@@ -180707,9 +180707,9 @@ stands O
 , O
 the O
 South B-ORG
-African I-ORG
-Press I-ORG
-Association I-ORG
+African O
+Press O
+Association B-ORG
 reported O
 . O
 
@@ -180828,8 +180828,8 @@ Mandela O
 and O
 several O
 African B-ORG
-National I-ORG
-Congress I-ORG
+National O
+Congress B-ORG
 leaders O
 who O
 are O
@@ -180951,9 +180951,9 @@ trial O
 by O
 a O
 Ho B-LOC
-Chi I-LOC
-Minh I-LOC
-City I-LOC
+Chi O
+Minh O
+City B-LOC
 court O
 was O
 seen O
@@ -181856,8 +181856,8 @@ leader O
 of O
 the O
 Kurdistan B-ORG
-Workers I-ORG
-Party I-ORG
+Workers O
+Party B-ORG
 , O
 or O
 PKK B-ORG
@@ -182238,9 +182238,9 @@ analyst O
 at O
 the O
 Council B-ORG
-on I-ORG
-Foreign I-ORG
-Relations I-ORG
+on O
+Foreign O
+Relations B-ORG
 who O
 was O
 assistant O
@@ -182422,11 +182422,11 @@ atman O
 of O
 the O
 Center B-ORG
-for I-ORG
-Strategic I-ORG
-and I-ORG
-International I-ORG
-Studies I-ORG
+for O
+Strategic O
+and O
+International O
+Studies B-ORG
 said O
 in O
 his O
@@ -182926,8 +182926,8 @@ N.J B-LOC
 . O
 
 Portland B-ORG
-Trail I-ORG
-Blazers I-ORG
+Trail O
+Blazers B-ORG
 coach O
 Maurice O
 Cheeks O
@@ -183104,7 +183104,7 @@ that O
 won O
 an O
 Eastern B-ORG
-Conference1ORG-lea I-ORG
+Conference-leading I-ORG
 50 O
 games O
 and O
@@ -183242,8 +183242,8 @@ officials O
 at O
 the O
 Central B-ORG
-Intelligence I-ORG
-Agency I-ORG
+Intelligence O
+Agency B-ORG
 said O
 that O
 U.S B-LOC
@@ -183439,7 +183439,7 @@ been O
 trying O
 to O
 convince O
-Asia1GPE B-LOC
+Asiagent B-LOC
 that O
 it O
 requires O
@@ -184244,10 +184244,10 @@ Chairperson O
 of O
 the O
 Commission B-ORG
-of I-ORG
-the I-ORG
-African I-ORG
-Union I-ORG
+of O
+the O
+African O
+Union B-ORG
 ( O
 AU B-ORG
 ) O
@@ -184265,8 +184265,8 @@ place O
 in O
 the O
 Central B-LOC
-Africa I-LOC
-Republic I-LOC
+Africa O
+Republic B-LOC
 on O
 March O
 15 O
@@ -184336,17 +184336,17 @@ said O
 the O
 AU B-ORG
 Central I-ORG
-Organ I-ORG
-of I-ORG
-the I-ORG
-Mechanism I-ORG
-for I-ORG
-Conflict I-ORG
-Prevention I-ORG
-, I-ORG
-Management I-ORG
-and I-ORG
-Resolution I-ORG
+Organ O
+of O
+the O
+Mechanism O
+for O
+Conflict O
+Prevention O
+, O
+Management O
+and O
+Resolution B-ORG
 will O
 meet O
 very O
@@ -184371,8 +184371,8 @@ rebels O
 in O
 the O
 Central B-LOC
-Africa I-LOC
-Republic I-LOC
+Africa O
+Republic B-LOC
 , O
 captured O
 the O
@@ -184486,7 +184486,7 @@ missile O
 fired O
 by O
 the O
-US1GPE B-LOC
+US-led B-LOC
 coalition O
 warplanes O
 , O
@@ -184536,7 +184536,7 @@ area O
 . O
 
 The O
-US1GPE B-LOC
+US-led B-LOC
 coalition O
 forces O
 launched O
@@ -184694,9 +184694,9 @@ Xinhua B-ORG
 ) O
 The O
 Hong B-ORG
-Kong I-ORG
-Polytechnic I-ORG
-University I-ORG
+Kong O
+Polytechnic O
+University B-ORG
 ( O
 PolyU B-ORG
 ) O
@@ -184739,9 +184739,9 @@ Hak-shan O
 at O
 the O
 Department B-ORG
-of I-ORG
-Mechanical I-ORG
-Engineering I-ORG
+of O
+Mechanical O
+Engineering B-ORG
 of O
 McGill B-ORG
 University I-ORG
@@ -184757,9 +184757,9 @@ and O
 Director O
 of O
 China B-ORG
-Polar I-ORG
-Museum I-ORG
-Foundation I-ORG
+Polar O
+Museum O
+Foundation B-ORG
 , O
 Humphrey O
 Leung O
@@ -184773,8 +184773,8 @@ Managing O
 Director O
 of O
 Solomon B-ORG
-Systech I-ORG
-Limited I-ORG
+Systech O
+Limited B-ORG
 , O
 Liu O
 Sing-cheong O
@@ -184785,13 +184785,13 @@ Managing O
 Director O
 of O
 Pearl B-ORG
-River I-ORG
-Hang I-ORG
-Cheong I-ORG
-Real I-ORG
-Estate I-ORG
-Consultants I-ORG
-Ltd I-ORG
+River O
+Hang O
+Cheong O
+Real O
+Estate O
+Consultants O
+Ltd B-ORG
 , O
 and O
 Samuel O
@@ -184804,10 +184804,10 @@ President O
 of O
 the O
 Association B-ORG
-of I-ORG
-Chartered I-ORG
-Certified I-ORG
-Accountants I-ORG
+of O
+Chartered O
+Certified O
+Accountants B-ORG
 . O
 
 Renowned O
@@ -184853,9 +184853,9 @@ successfully O
 founded O
 the O
 China B-ORG
-Polar I-ORG
-Museum I-ORG
-Foundation I-ORG
+Polar O
+Museum O
+Foundation B-ORG
 with O
 a O
 view O
@@ -184895,10 +184895,10 @@ PolyU B-ORG
 and O
 the O
 Federation B-ORG
-of I-ORG
-PolyU I-ORG
-Alumni I-ORG
-Associations I-ORG
+of O
+PolyU O
+Alumni O
+Associations B-ORG
 for O
 the O
 fourth O
@@ -184963,7 +184963,7 @@ Iraq B-LOC
 after O
 the O
 ongoing O
-US1GPE B-LOC
+US-led B-LOC
 war O
 against O
 the O
@@ -184974,7 +184974,7 @@ over O
 
 As O
 the O
-US1GPE B-LOC
+US-led B-LOC
 coalition O
 troops O
 are O
@@ -185081,7 +185081,7 @@ in O
 order O
 to O
 restore O
-Britain1G B-LOC
+Britain's B-LOC
 traditional O
 role O
 as O
@@ -185583,7 +185583,7 @@ extent O
 to O
 which O
 a O
-US1GPE B-LOC
+US-led B-LOC
 group O
 of O
 generals O
@@ -185782,7 +185782,7 @@ vocal O
 in O
 opposing O
 this O
-US1 B-LOC
+US- B-LOC
 led O
 war O
 against O
@@ -185921,8 +185921,8 @@ According O
 to O
 the O
 World B-ORG
-Health I-ORG
-Organization I-ORG
+Health O
+Organization B-ORG
 ( O
 WHO B-ORG
 ) O
@@ -185966,9 +185966,9 @@ control O
 Secretary O
 for O
 Social B-ORG
-Affairs I-ORG
-and I-ORG
-Culture I-ORG
+Affairs O
+and O
+Culture B-ORG
 Chui O
 Sai O
 On O
@@ -185997,11 +185997,11 @@ Services I-ORG
 and O
 the O
 Center B-ORG
-for I-ORG
-Disease I-ORG
-Prevention I-ORG
-and I-ORG
-Control I-ORG
+for O
+Disease O
+Prevention O
+and O
+Control B-ORG
 to O
 visit O
 neighboring O
@@ -186093,8 +186093,8 @@ Xinhua B-ORG
 ) O
 The O
 Central B-LOC
-Jakarta I-LOC
-District I-LOC
+Jakarta O
+District B-LOC
 Court O
 began O
 Wednesday O
@@ -186200,9 +186200,9 @@ room O
 in O
 the O
 Meteorology B-ORG
-and I-ORG
-Geophysics I-ORG
-Agency1O I-ORG
+and O
+Geophysics O
+Agency's B-ORG
 office O
 in O
 Central B-LOC
@@ -186374,9 +186374,9 @@ according O
 to O
 the O
 Associated B-ORG
-Press I-ORG
-of I-ORG
-Pakistan I-ORG
+Press O
+of O
+Pakistan B-ORG
 . O
 
 Rashid O
@@ -186555,10 +186555,10 @@ Xinhua B-ORG
 ) O
 The O
 Revolutionary B-ORG
-Armed I-ORG
-Forces I-ORG
-of I-ORG
-Colombia I-ORG
+Armed O
+Forces O
+of O
+Colombia B-ORG
 ( O
 FARC B-ORG
 ) O
@@ -187457,9 +187457,9 @@ news O
 that O
 the O
 Food B-ORG
-and I-ORG
-Drug I-ORG
-Administration I-ORG
+and O
+Drug O
+Administration B-ORG
 rejected O
 ImClone B-ORG
 's O
@@ -187535,9 +187535,9 @@ programs O
 by O
 the O
 International B-ORG
-Atomic I-ORG
-Energy I-ORG
-Agency I-ORG
+Atomic O
+Energy O
+Agency B-ORG
 ( O
 IAEA B-ORG
 ) O
@@ -187773,8 +187773,8 @@ Officials O
 with O
 the O
 Development B-ORG
-Planning I-ORG
-Commission I-ORG
+Planning O
+Commission B-ORG
 of O
 the O
 Shandong B-LOC
@@ -187837,10 +187837,10 @@ Approved O
 by O
 the O
 State B-ORG
-Development I-ORG
-and I-ORG
-Reform I-ORG
-Commission I-ORG
+Development O
+and O
+Reform O
+Commission B-ORG
 , O
 the O
 project O
@@ -187867,11 +187867,11 @@ director O
 of O
 the O
 Nuclear B-ORG
-Energy I-ORG
-Technology I-ORG
-and I-ORG
-Design I-ORG
-Institute I-ORG
+Energy O
+Technology O
+and O
+Design O
+Institute B-ORG
 attached O
 to O
 Qinghua B-ORG
@@ -187882,8 +187882,8 @@ quoted O
 in O
 Monday's O
 Beijing B-ORG
-Evening I-ORG
-News I-ORG
+Evening O
+News B-ORG
 as O
 saying O
 the O
@@ -188541,8 +188541,8 @@ own O
 company O
 , O
 Pinnacle B-ORG
-Business I-ORG
-Enterprises I-ORG
+Business O
+Enterprises B-ORG
 and O
 was O
 under O
@@ -191039,10 +191039,10 @@ LaDouce O
 of O
 the O
 National B-ORG
-Oceanic I-ORG
-and I-ORG
-Atmospheric I-ORG
-Administration I-ORG
+Oceanic O
+and O
+Atmospheric O
+Administration B-ORG
 . O
 
 LaDouce O
@@ -192098,17 +192098,17 @@ January O
 1984 O
 issue O
 of O
-'1ORGS B-ORG
+'Seventeen B-ORG
 ' O
 magazine B-ORG
-states I-ORG
-she I-ORG
-is I-ORG
-5 I-ORG
-ft I-ORG
-6 I-ORG
-inches I-ORG
-. I-ORG
+states O
+she O
+is O
+5 O
+ft O
+6 O
+inches O
+. O
 
 Lady O
 Chatterly O
@@ -193247,8 +193247,8 @@ Anniston B-LOC
 where O
 the O
 Dept B-ORG
-of I-ORG
-Defense I-ORG
+of O
+Defense B-ORG
 built O
 and O
 is O
@@ -193396,8 +193396,8 @@ the O
 famous O
 `` O
 Axis B-LOC
-of I-LOC
-Evil I-LOC
+of O
+Evil B-LOC
 . O
 '' O
 ) O
@@ -193726,7 +193726,7 @@ it O
 better O
 than O
 allowing O
-non-1OR B-ORG
+non-LDS B-ORG
 family O
 members O
 into O
@@ -197017,8 +197017,8 @@ regarded O
 
 The O
 Habitat B-ORG
-for I-ORG
-Humanity I-ORG
+for O
+Humanity B-ORG
 might O
 be O
 a O
@@ -197049,8 +197049,8 @@ this O
 time O
 : O
 American B-ORG
-Red I-ORG
-Cross I-ORG
+Red O
+Cross B-ORG
 : O
 Disaster O
 Relief O
@@ -197075,9 +197075,9 @@ Phone O
 ) O
 435-7669 O
 Habitat B-ORG
-for I-ORG
-Humanity I-ORG
-International I-ORG
+for O
+Humanity O
+International B-ORG
 : O
 Asia O
 Tsunami O
@@ -197101,8 +197101,8 @@ Phone O
 ) O
 422-4828 O
 Save B-ORG
-the I-ORG
-Children I-ORG
+the O
+Children B-ORG
 : O
 Attn O
 : O
@@ -197491,10 +197491,10 @@ from O
 MSF B-ORG
 '' O
 Doctors B-ORG
-Without I-ORG
-Borders/Médecins I-ORG
-Sans I-ORG
-Frontières I-ORG
+Without O
+Borders/Médecins O
+Sans O
+Frontières B-ORG
 ( O
 MSF B-ORG
 ) O
@@ -197715,8 +197715,8 @@ my O
 view O
 that O
 Doctors B-ORG
-without I-ORG
-Borders I-ORG
+without O
+Borders B-ORG
 ia O
 a O
 very O
@@ -199221,9 +199221,9 @@ Greek O
 2 O
 ) O
 Department B-ORG
-of I-ORG
-Multicultural I-ORG
-services I-ORG
+of O
+Multicultural O
+services B-ORG
 ( O
 Tasha O
 should O
@@ -199411,10 +199411,10 @@ and O
 issues O
 at O
 A B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-M I-ORG
+& O
+amp O
+; O
+M B-ORG
 . O
 
 Do O
@@ -208298,12 +208298,12 @@ are O
 screwed O
 with O
 N B-LOC
-. I-LOC
+. O
 
 Korea B-LOC
-, I-LOC
-but I-LOC
-Syria1GPE I-LOC
+, O
+but O
+Syria B-LOC
 and O
 Iran B-LOC
 are O
@@ -209114,8 +209114,8 @@ publication O
 of O
 the O
 National B-ORG
-Carousel I-ORG
-Association I-ORG
+Carousel O
+Association B-ORG
 . O
 
 In O
@@ -209127,8 +209127,8 @@ reporting O
 that O
 the O
 American B-ORG
-Carousel I-ORG
-Society I-ORG
+Carousel O
+Society B-ORG
 had O
 recently O
 disbanded O
@@ -209154,8 +209154,8 @@ place O
 
 The O
 National B-ORG
-Carousel I-ORG
-Association I-ORG
+Carousel O
+Association B-ORG
 was O
 founded O
 in O
@@ -209721,16 +209721,16 @@ who O
 left O
 the O
 National B-ORG
-Carousel I-ORG
-Association I-ORG
+Carousel O
+Association B-ORG
 banded O
 together O
 to O
 form O
 the O
 American B-ORG
-Carousel I-ORG
-Society I-ORG
+Carousel O
+Society B-ORG
 ( O
 ACS B-ORG
 ) O
@@ -209989,12 +209989,12 @@ relationship O
 between O
 the O
 National B-ORG
-Carousel I-ORG
-Association I-ORG
+Carousel O
+Association B-ORG
 and O
 American B-ORG
-Carousel I-ORG
-Society I-ORG
+Carousel O
+Society B-ORG
 , O
 as O
 newer O
@@ -210080,8 +210080,8 @@ though O
 , O
 the O
 American B-ORG
-Carousel I-ORG
-Society I-ORG
+Carousel O
+Society B-ORG
 had O
 determined O
 that O
@@ -210298,9 +210298,9 @@ Carnival B-ORG
 Corp I-ORG
 's O
 Investor B-ORG
-'s I-ORG
-Relations I-ORG
-department I-ORG
+'s O
+Relations O
+department B-ORG
 . O
 
 It O
@@ -211471,8 +211471,8 @@ extra O
 day O
 in O
 New B-LOC
-York I-LOC
-City I-LOC
+York O
+City B-LOC
 . O
 
 You O
@@ -213243,9 +213243,9 @@ democracy O
 But O
 the O
 Association B-ORG
-of I-ORG
-Muslim I-ORG
-Scholars I-ORG
+of O
+Muslim O
+Scholars B-ORG
 says O
 any O
 government O
@@ -214519,7 +214519,7 @@ source O
 of O
 intelligence O
 on O
-Lao1GPE-1GPEChina B-LOC
+Lao-China B-LOC
 border O
 activities O
 . O
@@ -214592,7 +214592,7 @@ Hmong O
 which O
 will O
 secure O
-CIA1ORG-insurg B-ORG
+CIA-insurgency B-ORG
 operations O
 . O
 
@@ -214619,7 +214619,7 @@ will O
 be O
 plenty O
 of O
-Hmong/1GPEChinese1GPE- B-LOC
+Hmong/Chinese-speaking B-LOC
 CIA B-ORG
 agents O
 for O
@@ -214629,7 +214629,7 @@ use O
 in O
 the O
 looming O
-Sino1GPE-1GPEUS B-LOC
+Sino-US B-LOC
 war O
 . O
 
@@ -214765,12 +214765,12 @@ North B-LOC
 Korea I-LOC
 to O
 escalate O
-Sino1GPE-1GPEUS B-LOC
+Sino-US B-LOC
 relations O
 and O
 test O
 Uncle B-LOC
-Sam1G I-LOC
+Sam's I-LOC
 temper O
 . O
 
@@ -215131,7 +215131,7 @@ this O
 guy O
 remembers O
 the O
-Iraq1GPE/1GPEIran B-LOC
+Iraq/Iran B-LOC
 war O
 of O
 1980-1988 O
@@ -215237,7 +215237,7 @@ two O
 years O
 after O
 the O
-UN1ORG-imp B-ORG
+UN-imposed B-ORG
 ceasefire O
 . O
 
@@ -216664,8 +216664,8 @@ Douglas O
 , O
 the O
 Southern B-ORG
-Democratic I-ORG
-Party I-ORG
+Democratic O
+Party B-ORG
 with O
 John O
 Breckenridge O
@@ -216673,8 +216673,8 @@ Breckenridge O
 and O
 the O
 Constitutional B-ORG
-Union I-ORG
-Party I-ORG
+Union O
+Party B-ORG
 with O
 John O
 Bell O
@@ -219389,8 +219389,8 @@ committees O
 of O
 the O
 House B-ORG
-of I-ORG
-Commons I-ORG
+of O
+Commons B-ORG
 and O
 the O
 Canadian B-LOC
@@ -219834,7 +219834,7 @@ wrong O
 Of O
 course O
 the O
-anti-1GPEAmer B-LOC
+anti-American B-LOC
 world O
 press O
 is O
@@ -220168,15 +220168,15 @@ Chai O
 Vang O
 of O
 St B-LOC
-. I-LOC
+. O
 
 Paul B-LOC
-, I-LOC
-Minn1GPE I-LOC
+, O
+Minn B-LOC
 , O
 used O
 a O
-Russian1GPE-b B-LOC
+Russian-built B-LOC
 Saiga O
 7.62 O
 mm O
@@ -220861,7 +220861,7 @@ Wilson O
 of O
 Nashville B-LOC
 , O
-Tenn1 B-LOC
+Tenn. B-LOC
 , O
 concluded O
 after O
@@ -220879,15 +220879,15 @@ unit O
 , O
 the O
 278th B-ORG
-Regimental I-ORG
-Combat I-ORG
-Team I-ORG
+Regimental O
+Combat O
+Team B-ORG
 of O
 the O
 Tennessee B-ORG
-Army I-ORG
-National I-ORG
-Guard I-ORG
+Army O
+National O
+Guard B-ORG
 , O
 is O
 about O
@@ -221145,12 +221145,12 @@ measure O
 . O
 
 Gun B-ORG
-Owners I-ORG
-of I-ORG
-California I-ORG
+Owners O
+of O
+California B-ORG
 , O
 a O
-Sacramento1GPE-b B-LOC
+Sacramento-based B-LOC
 lobbying O
 group O
 , O
@@ -221219,8 +221219,8 @@ said O
 . O
 
 Washington B-LOC
-, I-LOC
-D.C1 I-LOC
+, O
+D.C. B-LOC
 , O
 is O
 the O
@@ -221248,8 +221248,8 @@ affairs O
 for O
 the O
 National B-ORG
-Rifle I-ORG
-Association I-ORG
+Rifle O
+Association B-ORG
 , O
 said O
 San B-LOC
@@ -221273,8 +221273,8 @@ control O
 worked O
 , O
 Washington B-LOC
-, I-LOC
-D.C1 I-LOC
+, O
+D.C. B-LOC
 , O
 would O
 be O
@@ -221587,7 +221587,7 @@ Montgomery O
 of O
 Melvern B-LOC
 , O
-Kan1 B-LOC
+Kan. B-LOC
 , O
 was O
 arrested O
@@ -221732,7 +221732,7 @@ miles O
 to O
 Topeka B-LOC
 , O
-Kan1 B-LOC
+Kan. B-LOC
 , O
 on O
 Thursday O
@@ -222020,8 +222020,8 @@ again O
 From O
 the O
 Los B-ORG
-Angeles I-ORG
-Times I-ORG
+Angeles O
+Times B-ORG
 : O
 After O
 long O
@@ -222260,8 +222260,8 @@ with O
 against O
 the O
 San B-ORG
-Diego I-ORG
-Chargers I-ORG
+Diego O
+Chargers B-ORG
 in O
 a O
 thrilling O
@@ -222727,9 +222727,9 @@ most O
 notably O
 the O
 National B-ORG
-Organization I-ORG
-for I-ORG
-Women I-ORG
+Organization O
+for O
+Women B-ORG
 , O
 which O
 provided O
@@ -222792,9 +222792,9 @@ two O
 Today O
 the O
 1st B-ORG
-Court I-ORG
-of I-ORG
-Appeals I-ORG
+Court O
+of O
+Appeals B-ORG
 overturned O
 the O
 convictions O
@@ -223042,9 +223042,9 @@ April O
 , O
 the O
 Shanghai B-ORG
-public I-ORG
-security I-ORG
-bureau I-ORG
+public O
+security O
+bureau B-ORG
 sentenced O
 her O
 to O
@@ -223581,9 +223581,9 @@ polloi O
 Scott O
 The O
 Food B-ORG
-and I-ORG
-Drug I-ORG
-Administration I-ORG
+and O
+Drug O
+Administration B-ORG
 is O
 considering O
 whether O
@@ -223814,7 +223814,7 @@ for O
 Life O
 in O
 Washington B-LOC
-D.C1 I-LOC
+D.C. I-LOC
 , O
 to O
 honor O
@@ -224128,8 +224128,8 @@ him O
 But O
 a O
 new O
-CNN1ORG/1OR B-ORG
-Today1OR I-ORG
+CNN/USA B-ORG
+Today/Gallup I-ORG
 poll O
 suggests O
 more O
@@ -224554,9 +224554,9 @@ court O
 ruling O
 by O
 La B-ORG
-Plata I-ORG
-County I-ORG
-Court I-ORG
+Plata O
+County O
+Court B-ORG
 Judge O
 Doug O
 Walker O
@@ -224998,8 +224998,8 @@ miles O
 north O
 of O
 New B-LOC
-York I-LOC
-City I-LOC
+York O
+City B-LOC
 . O
 
 The O
@@ -225230,13 +225230,13 @@ Scott O
 From O
 the O
 St B-ORG
-. I-ORG
+. O
 
 Pete O
 Times B-ORG
-: I-ORG
-Some I-ORG
-Florida1GPE B-LOC
+: O
+Some O
+Florida B-LOC
 legislators O
 want O
 to O
@@ -225527,28 +225527,28 @@ Rep. O
 Jeff O
 Kottkamp O
 , O
-R- B-LOC
+R-Cape B-LOC
 Coral I-LOC
-, I-LOC
-said I-LOC
-the I-LOC
-bill I-LOC
-reminded I-LOC
-him I-LOC
-of I-LOC
-a I-LOC
-sign I-LOC
-he I-LOC
-saw I-LOC
-on I-LOC
-a I-LOC
-constituent I-LOC
-'s I-LOC
-house I-LOC
-while I-LOC
-campaigning I-LOC
-door-to-door I-LOC
-. I-LOC
+, O
+said O
+the O
+bill O
+reminded O
+him O
+of O
+a O
+sign O
+he O
+saw O
+on O
+a O
+constituent O
+'s O
+house O
+while O
+campaigning O
+door-to-door O
+. O
 
 Kottkamp O
 said O
@@ -225902,9 +225902,9 @@ culled O
 from O
 the O
 Virginia B-ORG
-Public I-ORG
-Access I-ORG
-Project I-ORG
+Public O
+Access O
+Project B-ORG
 . O
 
 The O
@@ -225985,8 +225985,8 @@ co-founder O
 of O
 of O
 Black B-ORG
-Entertainment I-ORG
-Television I-ORG
+Entertainment O
+Television B-ORG
 with O
 her O
 ex-husband O
@@ -226135,8 +226135,8 @@ at O
 the O
 blog O
 sic B-ORG
-semper I-ORG
-tyrannis I-ORG
+semper O
+tyrannis B-ORG
 , O
 `` O
 Addison O
@@ -226277,8 +226277,8 @@ candidate O
 for O
 the O
 House B-ORG
-of I-ORG
-Delegates I-ORG
+of O
+Delegates B-ORG
 from O
 the O
 42nd B-LOC
@@ -226318,9 +226318,9 @@ filed O
 with O
 the O
 State B-ORG
-Board I-ORG
-of I-ORG
-Elections I-ORG
+Board O
+of O
+Elections B-ORG
 on O
 January O
 18 O
@@ -226616,8 +226616,8 @@ Will O
 Vehrs O
 The O
 Augusta B-ORG
-Free I-ORG
-Press I-ORG
+Free O
+Press B-ORG
 ( O
 motto O
 : O
@@ -226643,7 +226643,8 @@ Del O
 Chap O
 Peterson O
 , O
-D1ORG-1GPEFairfax B-ORG
+D-1GPEFairfax1GPE B-ORG
+1ORGD1ORG-Fairfax B-LOC
 , O
 bill O
 that O
@@ -226739,9 +226740,9 @@ now O
 
 The O
 Virginia B-ORG
-Economic I-ORG
-Developers I-ORG
-Association I-ORG
+Economic O
+Developers O
+Association B-ORG
 has O
 not O
 taken O
@@ -226833,8 +226834,8 @@ doubt O
 , O
 The O
 Augusta B-ORG
-Free I-ORG
-Press I-ORG
+Free O
+Press B-ORG
 is O
 the O
 best O
@@ -227627,8 +227628,8 @@ to O
 the O
 shady O
 Broad B-ORG
-Street I-ORG
-CDA I-ORG
+Street O
+CDA B-ORG
 . O
 
 -DOCSTART- O
@@ -227652,8 +227653,8 @@ gift O
 to O
 the O
 University B-ORG
-of I-ORG
-Virginia I-ORG
+of O
+Virginia B-ORG
 . O
 
 The O
@@ -227855,8 +227856,8 @@ publications O
 like O
 the O
 Richmond B-ORG
-Free I-ORG
-Press I-ORG
+Free O
+Press B-ORG
 are O
 rarely O
 acknowledged O
@@ -227892,8 +227893,8 @@ reports O
 that O
 the O
 Legislative B-ORG
-Black I-ORG
-Caucus I-ORG
+Black O
+Caucus B-ORG
 celebrated O
 killing O
 a O
@@ -227904,19 +227905,19 @@ have O
 merged O
 the O
 Department B-ORG
-of I-ORG
-Minority I-ORG
-Business I-ORG
-Enterprise I-ORG
+of O
+Minority O
+Business O
+Enterprise B-ORG
 ( O
 DMBE O
 ) O
 with O
 the O
 Department B-ORG
-of I-ORG
-Business I-ORG
-Assistance I-ORG
+of O
+Business O
+Assistance B-ORG
 ( O
 DBA O
 ) O
@@ -227928,7 +227929,7 @@ Del O
 Dwight O
 Jones O
 ( O
-D-1GPERich B-LOC
+D-Richmond B-LOC
 ) O
 , O
 chair O
@@ -228106,8 +228107,8 @@ on O
 Brown O
 v. O
 Board B-ORG
-of I-ORG
-Education I-ORG
+of O
+Education B-ORG
 . O
 
 Faulk O
@@ -228438,16 +228439,16 @@ frightening O
 . O
 
 Media B-ORG
-General1ORG/1ORGT I-ORG
+General/Times I-ORG
 Dispatch I-ORG
-, I-ORG
-Richmond.com1ORG I-ORG
+, O
+Richmond.com B-ORG
 , O
 and O
 the O
 Richmond B-ORG
-Free I-ORG
-Press I-ORG
+Free O
+Press B-ORG
 all O
 have O
 significant O
@@ -228510,19 +228511,19 @@ co-chair O
 of O
 the O
 Commission B-ORG
-on I-ORG
-the I-ORG
-Intelligence I-ORG
-Capabilities I-ORG
-of I-ORG
-the I-ORG
-United I-ORG
-States I-ORG
-Regarding I-ORG
-Weapons I-ORG
-of I-ORG
-Mass I-ORG
-Destruction I-ORG
+on O
+the O
+Intelligence O
+Capabilities O
+of O
+the O
+United O
+States O
+Regarding O
+Weapons O
+of O
+Mass O
+Destruction B-ORG
 . O
 
 They O
@@ -229313,8 +229314,8 @@ As O
 expected O
 the O
 Senate B-ORG
-Finance I-ORG
-Committee I-ORG
+Finance O
+Committee B-ORG
 this O
 afternoon O
 killed O
@@ -229590,8 +229591,8 @@ Barnie O
 Day O
 The O
 Senate B-ORG
-Courts I-ORG
-Committee I-ORG
+Courts O
+Committee B-ORG
 this O
 afternoon O
 killed O
@@ -229842,8 +229843,8 @@ today O
 gutted O
 the O
 House B-ORG
-of I-ORG
-Delegates I-ORG
+of O
+Delegates B-ORG
 proposed O
 billion O
 dollar O
@@ -230110,8 +230111,8 @@ who O
 write O
 for O
 Bacon B-ORG
-'s I-ORG
-Rebellion I-ORG
+'s O
+Rebellion B-ORG
 have O
 pointed O
 out O
@@ -230556,9 +230557,9 @@ article O
 serving O
 the O
 Department B-ORG
-of I-ORG
-Historical I-ORG
-Resources I-ORG
+of O
+Historical O
+Resources B-ORG
 . O
 
 She O
@@ -230758,15 +230759,15 @@ VITA B-ORG
 , O
 the O
 Virginia B-ORG
-Information I-ORG
-Technology I-ORG
-Agency I-ORG
+Information O
+Technology O
+Agency B-ORG
 . O
 
 The O
 Bristol B-ORG
-Herald I-ORG
-Courier I-ORG
+Herald O
+Courier B-ORG
 editorial O
 page O
 is O
@@ -231075,8 +231076,8 @@ serve O
 in O
 the O
 House B-ORG
-of I-ORG
-Delegates I-ORG
+of O
+Delegates B-ORG
 . O
 
 There O
@@ -231158,9 +231159,10 @@ Del O
 Ward O
 Armstrong O
 , O
-D1ORG-1GPEH B-ORG
-County B-LOC
-. I-LOC
+D-1GPEHenry B-ORG
+1ORGD1ORG-Henry B-LOC
+County I-LOC
+. O
 
 `` O
 That O
@@ -231187,7 +231189,8 @@ Del O
 Richard O
 Black O
 , O
-R1ORG-1GPELoudoun B-ORG
+R-1GPELoudoun1GPE B-ORG
+1ORGR1ORG-Loudoun B-LOC
 , O
 who O
 has O
@@ -231562,9 +231565,9 @@ New B-LOC
 England I-LOC
 chain O
 Stop B-ORG
-n I-ORG
-' I-ORG
-Shop I-ORG
+n O
+' O
+Shop B-ORG
 acquired O
 Giant B-ORG
 . O
@@ -231847,8 +231850,8 @@ article O
 in O
 the O
 William B-ORG
-& I-ORG
-Mary I-ORG
+& O
+Mary B-ORG
 Alumni O
 Magazine B-ORG
 , O
@@ -232296,7 +232299,7 @@ deals O
 are O
 cut O
 with O
-non-1ORG B-ORG
+non-SWAM B-ORG
 vendors O
 , O
 and O
@@ -232459,7 +232462,7 @@ inviting O
 a O
 backlash O
 by O
-non-1ORG B-ORG
+non-SWAM B-ORG
 firms O
 . O
 
@@ -232943,8 +232946,8 @@ Authority I-LOC
 and O
 the O
 Palestine B-ORG
-Liberation I-ORG
-Organization I-ORG
+Liberation O
+Organization B-ORG
 ( O
 PLO B-ORG
 ) O
@@ -233059,8 +233062,8 @@ elected O
 to O
 the O
 Palestinian B-ORG
-Legislative I-ORG
-Council I-ORG
+Legislative O
+Council B-ORG
 , O
 in O
 which O
@@ -233160,8 +233163,8 @@ leader O
 of O
 the O
 Fatah B-ORG
-Tanzim I-ORG
-militia I-ORG
+Tanzim O
+militia B-ORG
 . O
 
 This O
@@ -233214,9 +233217,9 @@ under O
 the O
 name O
 al-Aqsa B-ORG
-Martyrs I-ORG
-' I-ORG
-Brigades I-ORG
+Martyrs O
+' O
+Brigades B-ORG
 . O
 
 What O
@@ -234020,7 +234023,7 @@ in O
 Colorado B-LOC
 Springs I-LOC
 , O
-Colo1 B-LOC
+Colo. B-LOC
 , O
 and O
 one O
@@ -234034,12 +234037,12 @@ Houston B-LOC
 , O
 Teterboro B-LOC
 , O
-N.J1 B-LOC
+N.J. B-LOC
 , O
 and O
 Medford B-LOC
 , O
-Ore1 B-LOC
+Ore. B-LOC
 , O
 according O
 to O
@@ -234145,8 +234148,8 @@ committee O
 for O
 the O
 Allied B-ORG
-Pilots I-ORG
-Association I-ORG
+Pilots O
+Association B-ORG
 . O
 
 `` O
@@ -234400,7 +234403,7 @@ may O
 have O
 obtained O
 a O
-Chinese1GPE-prod B-LOC
+Chinese-produced B-LOC
 ZM-87 O
 laser O
 blinder O
@@ -234450,8 +234453,8 @@ weapons.According O
 to O
 The O
 Asian B-ORG
-Pacific I-ORG
-Post I-ORG
+Pacific O
+Post B-ORG
 , O
 `` O
 Cult O
@@ -234873,9 +234876,9 @@ January O
 , O
 the O
 Department B-ORG
-of I-ORG
-Homeland I-ORG
-Security I-ORG
+of O
+Homeland O
+Security B-ORG
 will O
 be O
 able O
@@ -235003,7 +235006,7 @@ more O
 keenly O
 than O
 the O
-Israeli1GPE-1GPEPalestinian B-LOC
+Israeli-Palestinian B-LOC
 dispute O
 . O
 
@@ -235291,7 +235294,7 @@ election O
 complete O
 with O
 its O
-KGB1ORG-s B-ORG
+KGB-style B-ORG
 poisoning O
 of O
 the O
@@ -235577,15 +235580,15 @@ book O
 that O
 is O
 so O
-pro-1O B-ORG
+pro-united B-ORG
 nations I-ORG
-that I-ORG
-its I-ORG
-almost I-ORG
-sickening I-ORG
-to I-ORG
-read I-ORG
-. I-ORG
+that O
+its O
+almost O
+sickening O
+to O
+read O
+. O
 
 ( O
 hat O
@@ -235654,7 +235657,7 @@ MSNBC B-ORG
 has O
 written O
 a O
-pro-1OR B-ORG
+pro-U.N B-ORG
 . O
 
 book O
@@ -235684,7 +235687,7 @@ it O
 Actually O
 , O
 the O
-pro-1OR B-ORG
+pro-U.N B-ORG
 . O
 
 lobby O
@@ -235712,33 +235715,33 @@ Ted O
 Turner O
 's O
 U.N B-ORG
-. I-ORG
+. O
 
 Foundation B-ORG
-and I-ORG
-Better I-ORG
+and O
+Better B-ORG
 World O
 Campaign B-ORG
-for I-ORG
-`` I-ORG
-their I-ORG
-generous I-ORG
-financial I-ORG
-support I-ORG
-'' I-ORG
-of I-ORG
-her I-ORG
-book I-ORG
-project I-ORG
-. I-ORG
+for O
+`` O
+their O
+generous O
+financial O
+support O
+'' O
+of O
+her O
+book O
+project O
+. O
 
 She O
 also O
 thanks O
 the O
 Rockefeller B-ORG
-Brothers I-ORG
-Fund I-ORG
+Brothers O
+Fund B-ORG
 `` O
 for O
 helping O
@@ -235912,8 +235915,8 @@ U.N B-ORG
 
 for O
 National B-ORG
-Public I-ORG
-Radio I-ORG
+Public O
+Radio B-ORG
 ) O
 take O
 money O
@@ -235990,8 +235993,8 @@ Crossette O
 , O
 former O
 New B-ORG
-York I-ORG
-Times I-ORG
+York O
+Times B-ORG
 bureau O
 chief O
 at O
@@ -236004,20 +236007,20 @@ now O
 writes O
 for O
 U.N B-ORG
-. I-ORG
+. O
 
 Wire B-ORG
-, I-ORG
-a I-ORG
-Ted I-ORG
-Turner-funded I-ORG
-online I-ORG
-news I-ORG
-service I-ORG
-that I-ORG
-covers I-ORG
-the I-ORG
-U.N1ORG I-ORG
+, O
+a O
+Ted O
+Turner-funded O
+online O
+news O
+service O
+that O
+covers O
+the O
+U.N B-ORG
 . O
 
 A O
@@ -236714,7 +236717,7 @@ they O
 should O
 designate O
 the O
-Lebanon1GPE-b B-LOC
+Lebanon-based B-LOC
 Shiite O
 group O
 Hezbollah B-ORG
@@ -237388,9 +237391,9 @@ so-called O
 socialist O
 party O
 PSD B-ORG
-( I-ORG
-Social-Democratic I-ORG
-Party I-ORG
+( O
+Social-Democratic O
+Party B-ORG
 ) O
 . O
 
@@ -238398,11 +238401,11 @@ control O
 of O
 the O
 Ministry B-ORG
-of I-ORG
-Endowments I-ORG
-and I-ORG
-Religious I-ORG
-Affairs I-ORG
+of O
+Endowments O
+and O
+Religious O
+Affairs B-ORG
 . O
 
 These O
@@ -238422,9 +238425,9 @@ head O
 of O
 the O
 Association B-ORG
-of I-ORG
-Muslim I-ORG
-Scholars I-ORG
+of O
+Muslim O
+Scholars B-ORG
 ) O
 and O
 are O
@@ -238746,13 +238749,13 @@ town O
 . O
 
 Majlis B-ORG
-Shura I-ORG
-Al-Mujahideen I-ORG
+Shura O
+Al-Mujahideen B-ORG
 ( O
 The O
 Mujahideen B-ORG
-Advisory I-ORG
-Council I-ORG
+Advisory O
+Council B-ORG
 ) O
 are O
 in O
@@ -239648,7 +239651,7 @@ Mark O
 Backer O
 It O
 's O
-Auburn1ORG-1ORGGeorgia B-ORG
+Auburn-Georgia B-ORG
 week O
 , O
 ladies O
@@ -239794,7 +239797,7 @@ this O
 game O
 , O
 the O
-Auburn1ORG-1ORGUGA B-ORG
+Auburn-UGA B-ORG
 game O
 , O
 seems O
@@ -240287,7 +240290,7 @@ morning O
 and O
 EVERYTHING O
 is O
-pro-1OR B-ORG
+pro-UGA B-ORG
 . O
 
 I O
@@ -241133,8 +241136,8 @@ rivals O
 , O
 the O
 Alabama B-ORG
-Crimson I-ORG
-Tide I-ORG
+Crimson O
+Tide B-ORG
 , O
 and O
 I O
@@ -241225,7 +241228,7 @@ was O
 about O
 `` O
 if O
-Bama1O B-ORG
+Bama's B-ORG
 undefeated O
 , O
 they O
@@ -242753,8 +242756,8 @@ baseman O
 of O
 the O
 New B-ORG
-York I-ORG
-Yankees I-ORG
+York O
+Yankees B-ORG
 , O
 admitted O
 to O
@@ -242932,8 +242935,8 @@ good O
 thing O
 that O
 Major B-ORG
-League I-ORG
-Baseball I-ORG
+League O
+Baseball B-ORG
 has O
 such O
 a O
@@ -243836,7 +243839,7 @@ hopes O
 dying O
 as O
 the O
-Oklahoma1ORG-1ORGColorado B-ORG
+Oklahoma-Colorado B-ORG
 score O
 would O
 have O
@@ -247326,8 +247329,8 @@ Goodenow O
 ( O
 the O
 players B-ORG
-' I-ORG
-association I-ORG
+' O
+association B-ORG
 rep O
 ) O
 need O
@@ -247731,8 +247734,8 @@ contract O
 Hell O
 , O
 Major B-ORG
-League I-ORG
-Soccer I-ORG
+League O
+Soccer B-ORG
 and O
 the O
 WNBA B-ORG
@@ -247806,9 +247809,9 @@ Byrne O
 Shares O
 of O
 Martha B-ORG
-Stewart I-ORG
-Living I-ORG
-Omnimedia I-ORG
+Stewart O
+Living O
+Omnimedia B-ORG
 , O
 a O
 company O
@@ -248693,8 +248696,8 @@ tree O
 booksellers O
 like O
 Barnes B-ORG
-and I-ORG
-Noble I-ORG
+and O
+Noble B-ORG
 , O
 Borders B-ORG
 , O
@@ -249439,7 +249442,7 @@ I O
 do O
 n't O
 have O
-Oracle1ORG/1ORGPeoplesoft B-ORG
+Oracle/Peoplesoft B-ORG
 's O
 spat O
 to O
@@ -249684,8 +249687,8 @@ is O
 going O
 : O
 Las B-ORG
-Vegas I-ORG
-Sands I-ORG
+Vegas O
+Sands B-ORG
 kicked O
 off O
 its O
@@ -250267,7 +250270,7 @@ is O
 the O
 gigantic O
 , O
-Kremlin1GPE-suppo B-LOC
+Kremlin-supported B-LOC
 gas O
 company O
 most O
@@ -251888,8 +251891,8 @@ this O
 morning O
 's O
 Wall B-ORG
-Street I-ORG
-Journal I-ORG
+Street O
+Journal B-ORG
 reported O
 that O
 Marsh B-ORG
@@ -252337,7 +252340,7 @@ to O
 the O
 usually O
 reliable O
-CNN1ORG/M B-ORG
+CNN/Money B-ORG
 , O
 the O
 `` O
@@ -252613,7 +252616,7 @@ economically O
 nonsensical O
 purchases O
 by O
-non-1G B-LOC
+non-US B-LOC
 investors O
 , O
 rather O
@@ -252715,9 +252718,9 @@ sympathy O
 but O
 the O
 New B-ORG
-York I-ORG
-Stock I-ORG
-Exchange I-ORG
+York O
+Stock O
+Exchange B-ORG
 may O
 actually O
 convert O
@@ -253161,7 +253164,7 @@ to O
 get O
 into O
 the O
-Yukos1ORG-dismember B-ORG
+Yukos-dismemberment B-ORG
 trade O
 . O
 
@@ -254455,8 +254458,8 @@ O O
 
 of O
 Sirius B-ORG
-Satellite I-ORG
-Radio I-ORG
+Satellite O
+Radio B-ORG
 ... O
 '' O
 ira-cam O
@@ -254933,7 +254936,7 @@ wins O
 it O
 could O
 improve O
-Hollywood1O B-ORG
+Hollywood's B-ORG
 rating O
 , O
 and O
@@ -255255,10 +255258,10 @@ industry O
 constantly O
 challenging O
 AT B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-T I-ORG
+& O
+amp O
+; O
+T B-ORG
 's O
 right O
 to O
@@ -255304,8 +255307,8 @@ nonetheless O
 
 Byrne O
 G B-ORG
-'s I-ORG
-Investing I-ORG
+'s O
+Investing B-ORG
 argues O
 that O
 Alan O
@@ -256039,7 +256042,7 @@ this O
 report O
 on O
 the O
-U.S1GPE.-1GPERussia B-LOC
+U.S.-Russia B-LOC
 Technology O
 Symposium O
 . O
@@ -256184,8 +256187,8 @@ this O
 enthusiastic O
 about O
 Martha B-ORG
-Stewart I-ORG
-Living I-ORG
+Stewart O
+Living B-ORG
 : O
 The O
 fact O
@@ -256199,8 +256202,8 @@ clearly O
 enthusiastic O
 about O
 Martha B-ORG
-Stewart I-ORG
-Living I-ORG
+Stewart O
+Living B-ORG
 . O
 
 Let O
@@ -256844,8 +256847,8 @@ a O
 conference O
 at O
 Harvard B-ORG
-Business I-ORG
-School I-ORG
+Business O
+School B-ORG
 . O
 
 The O
@@ -256859,9 +256862,9 @@ new O
 group O
 called O
 Students B-ORG
-for I-ORG
-Responsible I-ORG
-Business I-ORG
+for O
+Responsible O
+Business B-ORG
 . O
 
 I O
@@ -256943,9 +256946,9 @@ years O
 . O
 
 Students B-ORG
-for I-ORG
-Responsible I-ORG
-Business I-ORG
+for O
+Responsible O
+Business B-ORG
 is O
 now O
 called O
@@ -256968,11 +256971,11 @@ hosted O
 by O
 The O
 University B-ORG
-of I-ORG
-Texas I-ORG
+of O
+Texas B-ORG
 McCombs I-ORG
-Business I-ORG
-School I-ORG
+Business O
+School B-ORG
 . O
 
 Net B-ORG
@@ -257444,9 +257447,9 @@ with O
 insurance O
 giant O
 American B-ORG
-International I-ORG
-Group I-ORG
-Inc I-ORG
+International O
+Group O
+Inc B-ORG
 . O
 
 ( O
@@ -257488,7 +257491,7 @@ both O
 have O
 since O
 left O
-AIG1ORG.Green B-ORG
+AIG.Greenberg B-ORG
 Sr. O
 then O
 created O
@@ -257915,13 +257918,13 @@ check O
 out O
 the O
 Stanford B-ORG
-Law I-ORG
-School I-ORG
+Law O
+School B-ORG
 's O
 Securities B-ORG
-Class I-ORG
-Action I-ORG
-Clearinghouse I-ORG
+Class O
+Action O
+Clearinghouse B-ORG
 . O
 
 This O
@@ -258153,13 +258156,13 @@ published O
 in O
 the O
 Journal B-ORG
-of I-ORG
-Business I-ORG
-Finance I-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-Accounting I-ORG
+of O
+Business O
+Finance O
+& O
+amp O
+; O
+Accounting B-ORG
 ( O
 2003 O
 , O
@@ -259385,8 +259388,8 @@ Week I-ORG
 or O
 The O
 Wall B-ORG
-Street I-ORG
-Journal I-ORG
+Street O
+Journal B-ORG
 , O
 you O
 've O
@@ -260187,10 +260190,10 @@ airlines O
 airports O
 , O
 Barnes B-ORG
-& I-ORG
-amp I-ORG
-; I-ORG
-Noble I-ORG
+& O
+amp O
+; O
+Noble B-ORG
 ) O
 , O
 most O

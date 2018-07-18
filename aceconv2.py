@@ -258,14 +258,66 @@ def GPEtoLOC(corp,out):
 		l=line.replace("B-GPE","B-LOC")
 		l2=l.replace("I-GPE","I-LOC")
 		o1.write(l2)
+		
+		
+##not used
+def fix1tag(filename,tagtypes,outname):
+	corp=open(filename).readlines()
+	out=open(outname,"w")
+	for line in corp:
+		ls=line.split()
+		if len(ls)>1:
+			token=ls[0]
+			c=0
+			for tag in tagtypes:
+				tag1="1"+tag
+				newtoken=token
+				while tag1 in newtoken:
+					c=1
+					newtoken=""
+					ind1=newtoken.find(tag1)
+					newtoken+=newtoken[:ind1]
+					newtoken+=newtoken[ind1+len(tag1):]
+			if c==0:
+				if token[-2:]!="1G":
+					out.write(line)
+			else: 
+				out.write(newtoken+"\t"+ls[1]+"\n")
+		else:
+			out.write(line)
+##takes as input the marked rawtext and outputs the token-per-line corpus
+## the code is not neat and will be updated
+def markedtotokenperline2(markedtext,entypes,outname):
+	tags=[]
+	out=open(outname,"w")
+	for t1 in entypes:
+		tags.append("1"+t1)
+	sents=sent_tokenize(markedtext)
+	for sent in sents:
+		words=word_tokenize(sent)
+		f=0
+		tag=""
+		for word in words:
+			if "DOCSTART" in word:
+				out.write(word + " O\n\n")
+			else:
+				c=0
+				for tag in tags:
+					if word.find(tag)!=-1:
+						c=1
+						out.write(word.replace(tag,"")+" "+tag[1:]+"\n")
+				if c==0:
+					out.write(word+" O\n")
+		out.write("\n")
 ##save these variables
 def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtypes,tagver,finalout):
 	filelist=filenamelist(filelistfile)
 	t,names,inds,typelist=ACEtoInterCorpus(filelistfile,outfilename,tagtypes)
 	markedtext=markentities(t,names,inds,typelist,interoutfilename)
 	deletedt=deletemetadata(markedtext,"!1")
-	markedtotokenperline(deletedt,tagtypes,outfilename,tagver)
+	markedtotokenperline2(deletedt,tagtypes,outfilename)
 	toBIOformat(outfilename,outfilename+"BIO")
+	#fix1tag(outfilename+"BIO",tagtypes,"1tagfixed")
 	GPEtoLOC(outfilename+"BIO",finalout)
 	##metadataeraser not working properly because of tokenization
 	###metadataeraser.deletemetadata(outfilename,filelist,"deletedcorp")
