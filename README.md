@@ -88,7 +88,7 @@ This file is the output of the final version of the converter. This is our curre
 
 results.ipynb
 
-This tool calculates the precision recall and f1 scores for Wapiti on Conll and Ace datasets with different configurations. The results are included inside the results folder and this folder must be downloaded to view the results. If one wants to calculates precision recall etc. for a different result then calling the acc function with the corresponding parameters is enough.
+This tool calculates the precision recall and f1 scores for all our models with different configurations. The results are included inside the results folder and this folder must be downloaded to view the results. If one wants to calculates precision recall etc. for a different result then calling the acc function with the corresponding parameters is enough.
 
 Since the tool is a ipython notebook it is enough to download the notebook and the results folder and go over the notebook.
 
