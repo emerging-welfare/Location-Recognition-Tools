@@ -113,4 +113,6 @@ If the train_size and test_size does not add up to 1 the splitter automatically 
 
 This tool takes as input a filename which is the name of the unannotated corpus. The output is the trained vectors using the gensim's word2vec model. 
 
- ` $ python word2vec.py filename
+```
+  $ python word2vec.py filename
+```
