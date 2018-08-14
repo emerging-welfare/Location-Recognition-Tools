@@ -107,3 +107,10 @@ Example run: python corpsplitter.py --corpus_name \[Corpus name\](required) --tr
  ` $ python corpsplitter.py --corpus_name ACEconllformat --train_size 0.8 --test_size 0.2`
  
 If the train_size and test_size does not add up to 1 the splitter automatically puts the remaining documents into the valid.txt. The splitter picks the documents randomly but uses the same seed everytime to split in the same way. You can download the "ACEconllformat" file together with corpsplitter.py to try on your own.
+
+
+### Tool 4: word2vec trainer
+
+This tool takes as input a filename which is the name of the unannotated corpus. The output is the trained vectors using the gensim's word2vec model. 
+
+ ` $ python word2vec.py filename
