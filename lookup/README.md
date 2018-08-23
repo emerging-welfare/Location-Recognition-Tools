@@ -1,6 +1,11 @@
-BENIM EKLEDIKLERIM
+# Addition by us
 
 ./lookup.sh lexicon corp output
+
+This tool makes use of the MER tool already available online. MER is a lookup table tool which takes as input a lexicon and a text and outputs a file containing information about the entities in the text. 
+
+In our model we converted this tool into a corpus tagger which can be used directly by our accuracy calculators. Also the original tool takes as input a text but our tool receives as input a filename which contains the text to be examined. The input is a token-per-line format text file. The output is the same text file containing the predictions at the end of each line. So if a token is included in the lexicon we give as input it is tagged as LOC and O otherwise. 
+
 
 
 
