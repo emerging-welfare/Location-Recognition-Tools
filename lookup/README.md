@@ -1,6 +1,8 @@
 #### Addition by us
+`
+$ ./lookup.sh lexicon corp output
+`
 
-./lookup.sh lexicon corp output
 
 This tool makes use of the MER tool already available online. MER is a lookup table tool which takes as input a lexicon and a text and outputs a file containing information about the entities in the text. 
 
