@@ -1,4 +1,6 @@
 #### Addition by us
+
+The lookup table tool can be run in the following manner. The user must specify the output name. The lexicon and the corpus(corp) must be included in the data folder with .txt ending. 
 `
 $ ./lookup.sh lexicon corp output
 `
