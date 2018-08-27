@@ -8,9 +8,15 @@ Each tool will be explained in detail.
 
 ### Tool 1: ACE to Token-per-line converter
 
+
 ACE corpus is very detailed and stored in XML format. In order to convert the corpus into a token-per-line format you can use the aceconv.py. You need to have the ACE corpus in the original format with file.tbl file available. 
 
 For now aceconv.py has 2 modes: custom and default. Default mode uses the predefined values for the input variables. No arguments are required for execution.
+
+**Requirements:** python version must be above python 3. Besides lxml, nltk,xml packages must be installed for python. Finally after installing nltk please download 'punkt' with:
+```
+nltk.download('punkt')
+```
 
 **In custom mode the program takes as input the following arguments:**
 
