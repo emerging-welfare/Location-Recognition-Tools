@@ -67,17 +67,15 @@ nltk.download('punkt')
  * Sentence splitting and tokenization is done properly using nltk.
  * Document boundaries are included.
  * BIO tagging scheme is added to the entity tags.
- * GPE tags are can be converted to LOC (to simplify the dataset according to the project needs)
+ * GPE tags can be converted to LOC (to simplify the dataset according to the project needs)
 
 The resulting corpus format is Conll-format and tools designed specifically for Conll can be directly applied.
  
  For the purpose of our project it suffices to run the converter in the default mode as in the example given below. 
- 
- **Example run for version2:**
 
  This tool outputs two files:
  * The raw format of the ACE corpus (intermediate)with the predefined entity types and metadata are marked with special characters.
- * The token-per-line format (Aceconllformat) corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
+ * The token-per-line format (Aceconllformat, tokperlineCorpus, tokperlineCorpusBIO) corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version. 
  
  #### tokperlineCorpus file
  This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively. Same file tagged in BIO format is named tokperlineCorpusBIO
