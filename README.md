@@ -113,3 +113,8 @@ This tool takes as input a filename which is the name of the unannotated corpus.
 ```
   $ python word2vec.py filename
 ```
+
+
+### Tool 5: lookup table program
+
+This program is an end-to-end lookup table program that makes of the MER tool already available.For details refer to the README file in the lookup document.
