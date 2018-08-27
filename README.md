@@ -74,11 +74,11 @@ The resulting corpus format is Conll-format and tools designed specifically for 
  * The token-per-line format (Aceconllformat) corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
  
  #### tokperlineCorpus file
- This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively. 
+ This file contains 427, 4061, 5506 tokens tagged with LOC, ORG, GPE respectively. Same file tagged in BIO format is named tokperlineCorpusBIO
  
  #### ACEconllformat file
  
-This file is the output of the final version of the converter. This is our current corpus we are using for Location Recognition.
+This file is the output of the final version of the converter. This is the output when we change the                                                     entity tags to fit the conll tags.
  
  
 ### Tool 2: Results and accuracy calculator 
