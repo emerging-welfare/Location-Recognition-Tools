@@ -40,7 +40,7 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  ```
     $ python3 aceconv2.py -h
  ```
- **NOTE**: For now it is recommended to use the tool in default setting with "def" argument
+ **NOTE**: For now it is recommended to use the tool in default setting with "def" argument. In the default mode the ACE dataset must be in the same folder with the aceconv2.py tool and must be named "ACE".
  
  This converter uses the documents in the adj folders which are data also subject to discrepancy resolution/adjudication. This version of the converter uses all the raw text available in the .sgm files including the metadata. The entities inside the metadata such as headline are not tagged. 
  
