@@ -121,7 +121,7 @@ def markentities(rawtext,names,inds,typelist,outname):
 	merged=merger(inds,typelist)
 	#print(len(merged))
 	merged.sort()
-	out=open(outname,"w")
+	out=open(outname,"w",encoding="utf-8")
 	markedt=""
 	ind1=0
 	len1=len(rawtext)
@@ -318,16 +318,16 @@ def ACEtotokenperlineconverter(filelistfile,interoutfilename,outfilename,tagtype
 	markedtotokenperline2(deletedt,tagtypes,outfilename)
 	toBIOformat(outfilename,outfilename+"BIO")
 	#fix1tag(outfilename+"BIO",tagtypes,"1tagfixed")
-	GPEtoLOC(outfilename+"BIO",finalout)
+	#GPEtoLOC(outfilename+"BIO",finalout)
 	##metadataeraser not working properly because of tokenization
 	###metadataeraser.deletemetadata(outfilename,filelist,"deletedcorp")
     
-base="ACE/aceCorp/"
-filelistfile="ACE/aceCorp/docs/file.tbl"
+base="ACE/"
+filelistfile="ACE/docs/file.tbl"
 intoutn="out1"
 outn="tokperlineCorpus"
 finalout1="ACEconllformat"
-tagtypes=["ORG","LOC","GPE"]
+tagtypes=["ORG","LOC","GPE","PER","FAC"]
 tagver=1         
 metadata=1
 
@@ -343,11 +343,11 @@ if len(args)>1:
 		print("python3 aceconv2.py filelistfile outfilename tagtypes tagver | for custom mode")
 		print("python3 aceconv2.py def  | for default mode")
 	elif args[1]=="def":
-		print("filelist address: ACE/aceCorp/docs/file.tbl")
+		print("filelist address: ACE/docs/file.tbl")
 		print("intermediate raw corpus: out1")
 		print("corpus file name: tokperlineCorpus")
-		print("Tag types: ORG LOC GPE( GPEs converted to LOC)")
-		print("Conll format corpus name: "+"ACEconllformat")
+		print("Tag types: ORG LOC GPE PER FAC")
+		#print("Conll format corpus name: "+"ACEconllformat")
 		print("Tagging version: type-specific BIO format")
 		print("metadata deleted")
 		ACEtotokenperlineconverter(filelistfile,intoutn,outn,tagtypes,tagver,finalout1)
