@@ -28,18 +28,19 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  
  * In default mode: 
  ```
-   $ python3 aceconv.py def
+   $ python3 aceconv2.py def
 ```
  * In custom mode: python3 aceconv.py base filelistfile outfilename tagtypes tagver
  
  ```
-    $ python3 aceconv.py ACE/aceCorp/ ACE/aceCorp/docs/file.tbl acetotokenCorpus ORG LOC GPE 0
+    $ python3 aceconv2.py ACE/aceCorp/ ACE/aceCorp/docs/file.tbl acetotokenCorpus ORG LOC GPE 0
 ```
  * To help:
  
  ```
-    $ python3 aceconv.py -h
+    $ python3 aceconv2.py -h
  ```
+ **NOTE**: For now it is recommended to use the tool in default setting with "def" argument
  
  This converter uses the documents in the adj folders which are data also subject to discrepancy resolution/adjudication. This version of the converter uses all the raw text available in the .sgm files including the metadata. The entities inside the metadata such as headline are not tagged. 
  
@@ -67,11 +68,7 @@ The resulting corpus format is Conll-format and tools designed specifically for 
  For the purpose of our project it suffices to run the converter in the default mode as in the example given below. 
  
  **Example run for version2:**
- For default version:
-  
- ```
-    $ python3 aceconv2.py def
- ```
+
  This tool outputs two files:
  * The raw format of the ACE corpus (intermediate)with the predefined entity types and metadata are marked with special characters.
  * The token-per-line format (Aceconllformat) corpus with word tokenization and sentence tokenization applied. Nltk tools are used. Metadata is deleted in the default version.
