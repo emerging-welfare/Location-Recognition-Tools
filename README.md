@@ -61,7 +61,7 @@ For now aceconv.py has 2 modes: custom and default. Default mode uses the predef
  * Sentence splitting and tokenization is done properly using nltk.
  * Document boundaries are included.
  * BIO tagging scheme is added to the entity tags.
- * GPE tags are converted to LOC (to simplify the dataset according to the project needs)
+ * GPE tags are can be converted to LOC (to simplify the dataset according to the project needs)
 
 The resulting corpus format is Conll-format and tools designed specifically for Conll can be directly applied.
  
