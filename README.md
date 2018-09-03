@@ -13,9 +13,10 @@ ACE corpus is very detailed and stored in XML format. In order to convert the co
 
 For now aceconv.py has 2 modes: custom and default. Default mode uses the predefined values for the input variables. No arguments are required for execution.
 
-**Requirements:** python version must be above python 3. Besides lxml, nltk,xml packages must be installed for python. Finally after installing nltk please download 'punkt' with:
+**Requirements:** python version must be above python 3. Besides lxml, nltk,xml packages must be installed for python. Finally after installing nltk please download 'punkt' 'gazetteers' 'names' 'stopwords' with:
 ```
 nltk.download('punkt')
+nltk.download('gazetteers') ...
 ```
 
 **In custom mode the program takes as input the following arguments:**
