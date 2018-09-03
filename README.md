@@ -102,7 +102,7 @@ This tool splits a given corpus into training,validation and test sets. The corp
 * test.txt
 * valid.txt
 
-Example run: python corpsplitter.py --corpus_name \[Corpus name\](required) --train_size \[Train size\](optional) ....
+Example run: python corpsplitter.py --corpus_name Corpus name(required) --train_size \[Train size\](optional) ....
 
 
  ` $ python corpsplitter.py --corpus_name ACEconllformat --train_size 0.8 --test_size 0.2`
