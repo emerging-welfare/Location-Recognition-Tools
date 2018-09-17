@@ -133,4 +133,15 @@ This section describes the machine learning tools we have used for place name re
 
 NeuroNER is a Named Entity Recognition specific Neural Network based tool. The details about the tool and how to install it is available in the GitHub repository of the tool : [NeuroNer GitHub page](https://github.com/Franck-Dernoncourt/NeuroNER ). 
 
+We assume that the users can download and install NeuroNER to their machine. Below we mention the errors we have encountered when we run the tool in a Unix machine. Hopefully this will speed up the installation process.
+
+**Possible Errors**
+
+ 1 - We observed that changing the parameters.ini file is a safer way to change parameters rather than giving command line input.
+ 2 - Due to version difference we got an error at line 36  of utils_plots.py file. Changing line 36 to
+ ``` ax=pc.axes ``` solves the problem.
+ 
+ 3 - In neuroner.py changing ``` import distutils``` to ``` import distutils.util``` was necessary again due to changes.
+ 
+
 
