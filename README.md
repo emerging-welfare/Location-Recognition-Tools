@@ -131,6 +131,6 @@ This section describes the machine learning tools we have used for place name re
 
 ### Tool 1: NeuroNER 
 
-NeuroNER is a Named Entity Recognition specific Neural Network based tool. The details about the tool and how to install it is available in the GitHub repository of the tool : (NeuroNer github page)[https://github.com/Franck-Dernoncourt/NeuroNER] . 
+NeuroNER is a Named Entity Recognition specific Neural Network based tool. The details about the tool and how to install it is available in the GitHub repository of the tool : [NeuroNer GitHub page](https://github.com/Franck-Dernoncourt/NeuroNER ). 
 
 
