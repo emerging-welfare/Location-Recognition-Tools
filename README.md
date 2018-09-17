@@ -162,6 +162,12 @@ We have also done experiments using our own embeddings trained specifically on I
 
 To replicate the training and testing we also give the datasets we have used under conll2003 and ACEsplitted folders. Please remember that the training validation and test sets must be named train.txt valid.txt and test.txt respectively. Also remember that the dataformat for all input files must be the same. The files in conll2003 with the prefix "featsiz" are in compatible format with ACE files. 
 
+### Tool 2: NCRFPP
+
+Second tool we have for place name recognition is NCRFPP. Relevant information about installation and running is available on [Github](https://github.com/jiesutd/NCRFpp). They give detailed results for the experiments on the Conll 2003 English NER task. Here we give the results we obtained for our own Indian News test set.
+
+
+
 
 
 
