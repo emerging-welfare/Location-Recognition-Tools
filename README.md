@@ -166,6 +166,11 @@ To replicate the training and testing we also give the datasets we have used und
 
 Second tool we have for place name recognition is NCRFPP. Relevant information about installation and running is available on [Github](https://github.com/jiesutd/NCRFpp). They give detailed results for the experiments on the Conll 2003 English NER task. Here we give the results we obtained for our own Indian News test set.
 
+ | Model | Precision | Recall | F1-Score |
+ | ----  | --|--              | -----    |
+ | NCRFPP | 0.612 | 0.782 | 0.687 | 
+ 
+ The tool does not append the prediction at the end of each file as in the case with many NER tools. This is not a major issue but we also give a python file named ```ncrfppappend.py``` which takes as input the gold labeled test set and  the file containing predictions and outputs a single file containing both the gold label and the prediction. 
 
 
 
