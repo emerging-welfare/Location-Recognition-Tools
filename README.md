@@ -156,5 +156,13 @@ We assume that the users can download and install NeuroNER to their machine. Bel
  | Neuro1 | 0.711 | **0.749** | 0.730 | 
  | Neuro2 | 0.407 | 0.516 | 0.455 | 
  | Neuro3 | **0.779** | 0.729 | **0.753** |
+ 
+
+We have also done experiments using our own embeddings trained specifically on Indian News Corpus. This corpus consists of around 2M news articles. The NeuroNER tool recommends using the GloVe pretrained word embeddings. The results we have obtained also show that those word embeddings perform better than our own ones. Still we share them for those who would like to use them during their experiments. Diff file found under word2vec folder is the word embedding found in our own set and not available in GloVe's own word embeddings. Users can take the union of the two sets to obtain a reasonable initializer for word embeddings. 
+
+To replicate the training and testing we also give the datasets we have used under datasets folder. Please remember that the training validation and test sets must be named train.txt valid.txt and test.txt respectively.
+
+
+
 
 
