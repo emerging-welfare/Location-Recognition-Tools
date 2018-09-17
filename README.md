@@ -123,3 +123,14 @@ This tool takes as input a filename which is the name of the unannotated corpus.
 ### Tool 5: lookup table program
 
 This program is an end-to-end lookup table program that makes of the MER tool already available.For details refer to the README file in the lookup document.
+
+
+## Publicly Available Tools Used 
+
+This section describes the machine learning tools we have used for place name recognition. These tools serve as the baseline models for place name recognition and named entity recognition systems for our task.
+
+### Tool 1: NeuroNER 
+
+NeuroNER is a Named Entity Recognition specific Neural Network based tool. The details about the tool and how to install it is available in the GitHub repository of the tool : (NeuroNer github page)[https://github.com/Franck-Dernoncourt/NeuroNER] . 
+
+
