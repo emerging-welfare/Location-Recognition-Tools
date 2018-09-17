@@ -170,7 +170,12 @@ Second tool we have for place name recognition is NCRFPP. Relevant information a
  | ----  | --|--              | -----    |
  | NCRFPP | 0.612 | 0.782 | 0.687 | 
  
- The tool does not append the prediction at the end of each file as in the case with many NER tools. This is not a major issue but we also give a python file named ```ncrfppappend.py``` which takes as input the gold labeled test set and  the file containing predictions and outputs a single file containing both the gold label and the prediction. 
+ The tool does not append the prediction at the end of each file as in the case with many NER tools. This is not a major issue but we also give a python file named ```ncrfppappend.py``` which takes as input the gold labeled test set and  the file containing predictions and outputs a single file containing both the gold label and the prediction. Example run for the appender:
+ 
+ ```
+ python ncrfappender.py --goldfile gold.txt --predfile pred.txt --outfile out.txt
+ ```
+ The goldfile and predfile inputs must be given. The outfile parameter has the default value 'output'.
 
 
 
