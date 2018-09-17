@@ -138,10 +138,18 @@ We assume that the users can download and install NeuroNER to their machine. Bel
 **Possible Errors**
 
  1 - We observed that changing the parameters.ini file is a safer way to change parameters rather than giving command line input.
+ 
  2 - Due to version difference we got an error at line 36  of utils_plots.py file. Changing line 36 to
  ``` ax=pc.axes ``` solves the problem.
  
  3 - In neuroner.py changing ``` import distutils``` to ``` import distutils.util``` was necessary again due to changes.
+ 
+ 4 - Prefer running the tool with ```python3``` to avoid problems that may arise due to python version difference.
+ 
+ 
+ #### Results using NeuroNER
+ 
+ We have already described in detail the results we have obtained using this tool in the ipython notebook [results](results.ipynb). Below we restate them briefly.
  
 
 
