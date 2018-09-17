@@ -149,7 +149,12 @@ We assume that the users can download and install NeuroNER to their machine. Bel
  
  #### Results using NeuroNER
  
- We have already described in detail the results we have obtained using this tool in the ipython notebook [results](results.ipynb). Below we restate them briefly.
+ We have already described in detail the results we have obtained using this tool in the ipython notebook [results](results.ipynb). Below we give the results we obtained for our initial test set for Indian News made up of 116 news documents. Each model is trained using different training sets. The results are calculated considering only the LOC type entities.
  
+ | Model | Precision | Recall | F1-Score |
+ | ----  | --|--              | -----    |
+ | Neuro1 | 0.711 | **0.749** | 0.730 | 
+ | Neuro2 | 0.407 | 0.516 | 0.455 | 
+ | Neuro3 | **0.779** | 0.729 | **0.753** |
 
 
