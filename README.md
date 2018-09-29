@@ -165,7 +165,7 @@ To replicate the training and testing we also give the datasets we have used und
 
 ### Tool 2: Wapiti
 
-Wapiti is a CRF-based sequence labeling toolkit. Detailed information about installation and usage can be obtained from the [original website](https://wapiti.limsi.fr/). We have done numerous experiments using this tool with different configurations. Details about the results using this tool is given in the [results] (results.ipynb)file. 
+Wapiti is a CRF-based sequence labeling toolkit. Detailed information about installation and usage can be obtained from the [original website](https://wapiti.limsi.fr/). We have done numerous experiments using this tool with different configurations. Details about the results using this tool is given in the [results](results.ipynb) file. 
 
 
 ### Tool 3: NCRFPP
