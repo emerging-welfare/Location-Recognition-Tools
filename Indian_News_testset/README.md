@@ -5,7 +5,7 @@ This folder contains the English News from India test set used in the paper titl
 
 # Citation
 
-If you make use of this dataset in your work, please cite this [paper](https://doi.org/10.1145/3281354.3281363):
+If you make use of this dataset in your work, please cite this [paper](https://doi.org/10.1145/3281354.3281363) which will be available soon:
 
 ```
 Arda Akdemir, Ali Hürriyetoğlu, Erdem Yörük, Burak Gürel, Çağrı Yoltar,
