@@ -184,7 +184,15 @@ Thırd tool we have for place name recognition is NCRFPP. Relevant information a
  The goldfile and predfile inputs must be given. The outfile parameter has the default value 'output'.
 
 
+## Datasets 
 
+This section explains the datasets used for the place name recognition task of our project.
+
+### English News from India test set
+
+This first batch of 116 documents from India is an annotated dataset for the location, person and organization type named entities. This dataset is constructed mainly for the Event Extraction task. Thus only the entities inside an event sentence is annotated. Named entities outside these sentences are not annotated. In order to have a consistent dataset the test set contains **only the event sentences**. 
+
+The test set is available in the [Indian_News_testset](Indian_News_testset) folder with name `test.txt'.
 
 
 
