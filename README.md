@@ -6,6 +6,14 @@ There are various tools for different purposes.
 
 Each tool will be explained in detail.
 
+## Towards Generalizable Place Name Recognition Systems
+
+This repository contains the material used in [Towards Generalizable Place Name Recognition Systems: Analysis and Enhancement of NER Systems on English News from India](https://dl.acm.org/citation.cfm?doid=3281354.3281363) published in ACM SIGSPATIAL 2018 Geographic Information Retrieval Workshop [1]. Video presentation of the paper is available [here](https://www.youtube.com/watch?v=Jcgoh78MoNY).
+
+
+[1] Akdemir, A., Hürriyetoğlu, A., Yörük, E., Gürel, B., Yoltar, Ç., and Yüret, D. (2018). Towards Generalizable Place Name Recognition Systems: Analysis and Enhancement of NER Systems on English News from India. 1-10. 10.1145/3281354.3281363. In 12th Workshop on Geographic Information Retrieval (GIR’18), November 6, 2018, Seattle, WA, USA. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3281354.3281363
+
+
 ### Tool 1: ACE to Token-per-line converter
 
 
