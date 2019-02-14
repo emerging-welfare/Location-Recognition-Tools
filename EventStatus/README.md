@@ -42,3 +42,15 @@ Below we give a short description of each field in the json format:
 * text: The news document with the html tags stripped off.
 * title: Title of the news document.
 
+### Converter
+
+The program used for converting the datasets into JSON format is eventstatusjsonconverter.py. This program receives the arguments : path to the folder containing all the documents in .txt format and the name of the output file for json.
+
+Example run is as follows : 
+
+```
+$ python eventstatusjsonconverter.py EventStatus/data/Spanish/annotated_texts eventstatusjson
+```
+
+The first argument is the path to the directory containing the news documents and the second one is the name of the output files. Note that the program outputs to files for sentence level only annotations and sentence and phrase level annotations.
+The file with the suffix cuno denotes the sentence level only datasets and the file with the suffix both denotes the datasets annotated for both sentence and phrase level.
