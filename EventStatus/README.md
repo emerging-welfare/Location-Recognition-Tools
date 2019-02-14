@@ -1,11 +1,23 @@
 ## Event Status Corpus
 
 
+
+This folder contains the Event Status English Gigaword 5th Edition and Spanish Gigaword 3rd Edition converted to JSON format in python language. 
+
 ### English 
-This folder contains the Event Status English Gigaword 5th Edition converted to JSON format. The file named "eventstatuscunojson" 
+The file named "eventstatuscunojson" 
 contains the json format corpus for the documents that are annotated only for the sentence level.
 The file named "eventstatusbothjson" contains the json format corpus for the documents that are annotated for both 
-phrase level and sentence level. The files are python lists that contain dictionaries as in JSON format, saved using **pickle** package.
+phrase level and sentence level. 
+
+## Spanish 
+
+The file named "eventstatuscunospjson" 
+contains the json format corpus for the documents that are annotated only for the sentence level.
+The file named "eventstatusbothspjson" contains the json format corpus for the documents that are annotated for both 
+phrase level and sentence level. 
+
+The files are python lists that contain dictionaries as in JSON format, saved using **pickle** package.
 
 To load the JSON formatted documents use: 
 
