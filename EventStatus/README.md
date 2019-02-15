@@ -2,10 +2,10 @@
 
 
 
-This folder contains the Event Status English Gigaword 5th Edition and Spanish Gigaword 3rd Edition converted to JSON format in python language version 2.7. Due to the versioning the pickle files may not be loaded appropriately. Thus we also give the pickle files converted using python 3. These files have the ending p3 to denote python version 3 is used during conversion. 
+This folder contains the Event Status English Gigaword 5th Edition and Spanish Gigaword 3rd Edition converted to JSON format. Due to the versioning the pickle files may not be loaded appropriately. Thus we also give the pickle files converted using python 3. These files have the ending p3 to denote python version 3 is used during conversion. Files with the .json ending are the ready-to-use files in json format. Other files are pickle files which can be used in python by loading using pickle.
 
 ### English 
-The file named "eventstatuscunojson" 
+The files named "eventstatuscunojson" 
 contains the json format corpus for the documents that are annotated only for the sentence level.
 The file named "eventstatusbothjson" contains the json format corpus for the documents that are annotated for both 
 phrase level and sentence level. 
@@ -19,7 +19,7 @@ phrase level and sentence level.
 
 The files are python lists that contain dictionaries as in JSON format, saved using **pickle** package.
 
-To load the JSON formatted documents use: 
+To load the JSON formatted documents in python using pickle, use: 
 
 ```
 import pickle
@@ -49,8 +49,8 @@ The program used for converting the datasets into JSON format is eventstatusjson
 Example run is as follows : 
 
 ```
-$ python eventstatusjsonconverter.py EventStatus/data/Spanish/annotated_texts eventstatusjson
+$ python eventstatusjsonconverter.py EventStatus/data/Spanish/annotated_texts eventstatus_spa
 ```
 
 The first argument is the path to the directory containing the news documents and the second one is the name of the output files. Note that the program outputs to files for sentence level only annotations and sentence and phrase level annotations.
-The file with the suffix cuno denotes the sentence level only datasets and the file with the suffix both denotes the datasets annotated for both sentence and phrase level.
+The file with the suffix cuno denotes the sentence level only datasets and the file with the suffix both denotes the datasets annotated for both sentence and phrase level. The converter generates both pickle files and json files. 
