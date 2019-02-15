@@ -2,7 +2,7 @@
 
 
 
-This folder contains the Event Status English Gigaword 5th Edition and Spanish Gigaword 3rd Edition converted to JSON format in python language. 
+This folder contains the Event Status English Gigaword 5th Edition and Spanish Gigaword 3rd Edition converted to JSON format in python language version 2.7. Due to the versioning the pickle files may not be loaded appropriately. Thus we also give the pickle files converted using python 3. These files have the ending p3 to denote python version 3 is used during conversion. 
 
 ### English 
 The file named "eventstatuscunojson" 
